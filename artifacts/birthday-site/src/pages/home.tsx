@@ -15,7 +15,7 @@ function FloatingParticles() {
       size: Math.random() * 1.5 + 0.5,
       delay: Math.random() * 5,
       duration: Math.random() * 10 + 10,
-      type: Math.random() > 0.5 ? "heart" : "sparkle" as const,
+      type: (Math.random() > 0.5 ? "heart" : "sparkle") as "heart" | "sparkle",
     }));
     setParticles(newParticles);
   }, []);

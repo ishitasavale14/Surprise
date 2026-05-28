@@ -1,0 +1,154 @@
+Create an emotional cinematic “Love Letter” page for a romantic birthday surprise website.
+
+The experience should feel deeply personal, intimate, dreamy, and emotional — like opening a handwritten digital love letter inside a luxury romantic film.
+
+STYLE:
+Dark romantic luxury aesthetic mixed with soft handwritten scrapbook elements.
+
+Use:
+
+black and wine-red gradients
+warm glowing lights
+candlelight ambiance
+floating particles
+blurred dreamy backgrounds
+glassmorphism
+emotional cinematic animations
+
+LAYOUT:
+Create a fullscreen immersive section with a centered animated letter-opening experience.
+
+INTRO ANIMATION:
+Before the letter opens:
+show a sealed digital envelope with wax-seal aesthetic.
+
+Envelope should have:
+
+glowing edges
+soft heartbeat pulse
+floating heart particles
+
+Display text:
+“A letter written only for you ❤️”
+
+When user clicks:
+“Open Letter”
+
+Animate:
+
+envelope slowly opening
+paper unfolding realistically
+cinematic zoom
+soft romantic sound effect
+
+LOVE LETTER SECTION:
+After opening, reveal a beautifully designed handwritten-style digital letter.
+
+LETTER CONTENT:
+Make all text editable with placeholders:
+
+[BOYFRIEND_NAME]
+[YOUR_MESSAGE]
+[SPECIAL_DATE]
+[YOUR_NAME]
+
+The letter should support:
+
+long paragraphs
+custom line breaks
+emojis
+highlighted words
+handwritten signature
+
+Example structure:
+“To my favorite person…”
+
+Include:
+
+realistic paper texture
+slightly burned edges
+scrapbook tape corners
+soft shadow depth
+
+ANIMATIONS:
+While scrolling through letter:
+
+text reveals gradually
+glowing highlights animate softly
+particles float gently
+paper subtly moves with parallax
+
+EMOTIONAL EFFECTS:
+Add occasional floating phrases appearing softly around page:
+
+“I love you”
+“my home”
+“forever”
+“happy birthday”
+
+These should fade in/out elegantly.
+
+BACKGROUND:
+Use blurred cinematic moving lights and optional editable background video.
+
+Placeholders:
+[BACKGROUND_VIDEO]
+[LETTER_BACKGROUND_IMAGE]
+
+OPTIONAL SIDE MEMORIES:
+Add small floating photo memories beside the letter.
+
+Editable placeholders:
+[LETTER_MEMORY_IMAGE_1]
+[LETTER_MEMORY_IMAGE_2]
+
+Photos should:
+
+tilt slightly
+float slowly
+glow softly on hover
+
+MUSIC:
+Continue romantic background music seamlessly.
+
+Add mini music visualizer at bottom.
+
+INTERACTIVE FEATURE:
+Add hidden clickable hearts inside letter.
+
+When clicked:
+
+reveal hidden messages
+trigger heart burst animation
+play tiny sparkle effect
+
+Placeholders:
+[HIDDEN_MESSAGE_1]
+[HIDDEN_MESSAGE_2]
+
+ENDING SECTION:
+At end of letter display animated text:
+“You are my favorite chapter ❤️”
+
+Below it:
+glowing button:
+“Unlock Your Birthday Surprise”
+
+Button transition:
+cinematic fade + blur dissolve.
+
+TYPOGRAPHY:
+Mix elegant handwritten fonts with cinematic luxury typography.
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep everything editable from config/constants file:
+
+letter text
+names
+images
+videos
+music
+hidden messages
+colors

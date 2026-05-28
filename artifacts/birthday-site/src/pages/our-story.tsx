@@ -15,7 +15,7 @@ function FloatingParticles() {
       size: Math.random() * 1.5 + 0.5,
       delay: Math.random() * 5,
       duration: Math.random() * 10 + 10,
-      type: Math.random() > 0.5 ? "heart" : ("sparkle" as const),
+      type: (Math.random() > 0.5 ? "heart" : "sparkle") as "heart" | "sparkle",
     }));
     setParticles(newParticles);
   }, []);
@@ -195,7 +195,7 @@ export default function OurStory() {
           transition={{ duration: 1 }}
           className="flex flex-col items-center gap-6"
         >
-          <button className="px-10 py-5 rounded-full bg-primary/90 hover:bg-primary text-white font-serif text-xl tracking-wide transition-all shadow-lg hover:shadow-[0_0_30px_rgba(255,182,193,0.8)] backdrop-blur-md overflow-hidden relative group">
+          <button onClick={() => setLocation("/letter")} className="px-10 py-5 rounded-full bg-primary/90 hover:bg-primary text-white font-serif text-xl tracking-wide transition-all shadow-lg hover:shadow-[0_0_30px_rgba(255,182,193,0.8)] backdrop-blur-md overflow-hidden relative group">
             <span className="relative z-10 flex items-center gap-2">
               Open Birthday Letter <Heart className="w-5 h-5 fill-current" />
             </span>

@@ -67,3 +67,22 @@ export const memories = [
     hiddenMessage: "I can't wait for a lifetime of more memories with you.",
   }
 ];
+
+export const letterConfig = {
+  greeting: "To my favorite person in the whole world,",
+  paragraphs: [
+    "I've been trying to find words worthy of you — and I'm not sure they exist. But today, on your birthday, I want to try.",
+    "From the moment you came into my life, everything felt softer. Quieter. Like the world finally exhaled. You didn't just change my life — you became the best part of it.",
+    "I love the way you laugh. I love the way you see beauty in ordinary things. I love that you choose me, every day, even on the days I'm hard to love.",
+    "You deserve every good thing the universe can offer. You deserve mornings full of warmth and nights full of peace. You deserve someone who sees you — truly sees you. And I hope that, in some small way, I do.",
+    "Happy Birthday, [BOYFRIEND_NAME]. Thank you for existing. Thank you for being mine.",
+  ],
+  closingLine: "You are my favorite chapter ❤️",
+  signature: "[YOUR_NAME]",
+  hiddenMessages: [
+    { id: 1, trigger: "I love the way you laugh", message: "Your laugh is literally my favorite sound in the world 🥹" },
+    { id: 2, trigger: "you choose me", message: "Choosing you is the easiest thing I've ever done 💕" },
+  ],
+  floatingPhrases: ["I love you", "my home", "forever", "happy birthday", "my person", "always"],
+};
+
