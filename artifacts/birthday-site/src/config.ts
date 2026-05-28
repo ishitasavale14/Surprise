@@ -104,3 +104,28 @@ export const surpriseConfig = {
   replayLabel: "Replay Our Love Story",
 };
 
+export const reasonsConfig = {
+  heading: "Reasons Why I Love You",
+  subheading: "Some words I never want you to forget.",
+  midQuote: "In every universe, I think I'd still find you.",
+  endingLine1: "And today…",
+  endingLine2: "I just want to celebrate you ❤️",
+  ctaLabel: "Continue To Your Final Surprise",
+  hiddenNotes: [
+    "You're my favorite person.",
+    "I'd choose you every lifetime.",
+    "You feel like home.",
+    "Being loved by you is my greatest gift.",
+  ],
+  reasons: [
+    { id: 1, short: "The way you make me laugh", expanded: "You have this gift of finding the funny in everything. With you, even the hardest days become lighter. I never knew laughter could feel this much like love.", rotate: -3, color: "pink" },
+    { id: 2, short: "How safe I feel with you", expanded: "You've created a space where I don't have to pretend or perform. With you, I can just be — messy, tired, imperfect — and still feel completely loved.", rotate: 2, color: "lavender" },
+    { id: 3, short: "Your smile", expanded: "I'm not even sure you know what your smile does to people. To me. It's the kind of smile that makes the world pause for just a second.", rotate: -5, color: "peach" },
+    { id: 4, short: "The way you care for me", expanded: "The little things you do — checking in, remembering things, showing up — they mean more than you'll ever know. You love so quietly and completely.", rotate: 4, color: "pink" },
+    { id: 5, short: "Your mind", expanded: "The way you think about things, the way you see the world — it endlessly fascinates me. I could listen to you talk for hours and never get tired.", rotate: -2, color: "lavender" },
+    { id: 6, short: "How you make ordinary feel magical", expanded: "Grocery runs, lazy evenings, nothing plans — everything becomes an adventure with you. You are the magic in the mundane.", rotate: 3, color: "peach" },
+    { id: 7, short: "Your heart", expanded: "You love so deeply and so genuinely. Watching you care about the things and people you love is one of the most beautiful things I've ever seen.", rotate: -4, color: "pink" },
+    { id: 8, short: "Simply existing", expanded: "On the days when I can't explain it — when there's no specific reason — I love you just because you're you. That's always been enough.", rotate: 1, color: "lavender" },
+  ],
+};
+

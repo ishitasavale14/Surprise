@@ -1,0 +1,178 @@
+Create a dreamy interactive “Reasons I Love You” page for a romantic birthday website.
+
+The page should feel:
+
+emotional
+playful
+intimate
+magical
+soft and cinematic
+like opening hidden love notes one by one
+
+STYLE:
+Luxury dark romantic aesthetic mixed with cute scrapbook energy and emotional Instagram reel visuals.
+
+Use:
+
+black and deep red gradients
+glowing pink accents
+blurred dreamy lights
+floating sparkles
+glassmorphism cards
+handwritten doodles
+cinematic animations
+
+LAYOUT:
+Create a fullscreen interactive experience where multiple floating love notes/cards appear in a magical environment.
+
+INTRO SECTION:
+Display animated heading:
+“Reasons Why I Love You ❤️”
+
+Subheading:
+“Some words I never want you to forget.”
+
+Animate text with:
+
+soft fade reveal
+glow pulse
+cinematic upward motion
+floating animation
+
+BACKGROUND:
+Create immersive animated background with:
+
+floating hearts
+moving particles
+blurred glowing lights
+dreamy cinematic fog
+subtle star-like sparkles
+
+INTERACTIVE LOVE NOTES:
+Generate multiple floating note cards scattered across screen.
+
+Each card should contain editable placeholders:
+[REASON_1]
+[REASON_2]
+[REASON_3]
+
+Examples:
+
+“The way you make me laugh”
+“How safe I feel with you”
+“Your smile”
+“The way you care for me”
+
+CARDS DESIGN:
+Cards should look like:
+
+scrapbook notes
+polaroids
+handwritten sticky notes
+taped diary pages
+
+Add:
+
+slight random rotations
+layered paper textures
+handwritten doodles
+mini hearts and stars
+
+INTERACTION:
+When user clicks a card:
+
+expand into cinematic popup
+reveal full romantic message
+play sparkle animation
+softly blur background
+
+Optional placeholders:
+[EXPANDED_MESSAGE]
+[VOICE_NOTE]
+[MINI_VIDEO]
+
+ANIMATIONS:
+Cards should:
+
+float gently
+react to cursor movement
+glow softly on hover
+tilt naturally
+animate smoothly
+
+Add cursor-following sparkles and tiny heart trails.
+
+SPECIAL FEATURE:
+Include “Hidden Love Notes” randomly appearing after few seconds.
+
+These should fade in softly with messages like:
+
+“You’re my favorite person.”
+“I’d choose you every lifetime.”
+“You feel like home.”
+
+Make them editable.
+
+PHOTO INTEGRATION:
+Allow optional floating mini memory photos between notes.
+
+Placeholders:
+[MINI_MEMORY_IMAGE_1]
+[MINI_MEMORY_IMAGE_2]
+
+Photos should:
+
+slowly rotate
+float gently
+enlarge slightly on hover
+
+MUSIC:
+Continue romantic background music smoothly.
+
+Add subtle audio-reactive glow effect synced with music beats.
+
+MID-PAGE QUOTE:
+Display large cinematic quote:
+“In every universe, I think I’d still find you.”
+
+Animate:
+
+slow fade
+blur reveal
+glowing text pulse
+
+ENDING SECTION:
+At end create emotional transition scene.
+
+Display:
+“And today…
+I just want to celebrate you ❤️”
+
+Add glowing button:
+“Continue To Your Final Surprise”
+
+Transition effect:
+
+cinematic blur dissolve
+floating heart transition
+slow zoom
+
+TYPOGRAPHY:
+Mix:
+
+handwritten fonts
+elegant cinematic serif fonts
+modern minimal typography
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep all content editable from config/constants file:
+
+reasons
+notes
+images
+videos
+audio
+colors
+quotes

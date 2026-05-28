@@ -1,0 +1,206 @@
+Create an emotional cinematic “Future Together” ending page for a romantic birthday website.
+
+The page should feel:
+
+dreamy
+emotional
+hopeful
+intimate
+magical
+like the ending scene of a romantic movie
+
+STYLE:
+Dark luxury romantic aesthetic with soft glowing lights, cinematic visuals, dreamy animations, floating particles, and emotional storytelling.
+
+Use:
+
+black background
+deep wine-red gradients
+glowing pink highlights
+soft golden sparkles
+blurred cinematic lighting
+glassmorphism
+dreamy fog effects
+
+LAYOUT:
+Create a fullscreen immersive ending experience with animated countdown, future promises, and emotional closing visuals.
+
+INTRO SECTION:
+Display animated heading:
+“Our Forever Starts Here ❤️”
+
+Subheading:
+“No matter how many birthdays pass…
+I just want to keep loving you.”
+
+Animate text with:
+
+cinematic fade reveal
+blur-to-clear effect
+soft glow pulse
+floating motion
+
+BACKGROUND:
+Use optional editable cinematic background video or animated gradient.
+
+Placeholders:
+[BACKGROUND_VIDEO]
+[BACKGROUND_IMAGE]
+
+Add:
+
+floating stars
+glowing particles
+soft moving lights
+ambient fog
+dreamy heart trails
+
+MAIN FEATURE — LIVE RELATIONSHIP COUNTER:
+Create elegant animated relationship timer showing:
+
+years
+months
+days
+hours
+minutes
+seconds
+
+Editable placeholders:
+[RELATIONSHIP_START_DATE]
+
+Display text:
+“We’ve been creating memories for…”
+
+Style:
+
+glowing glassmorphism timer cards
+soft pulse animations
+cinematic transitions
+
+SECOND FEATURE — FUTURE PROMISES:
+Create floating promise cards with editable text.
+
+Placeholders:
+[PROMISE_1]
+[PROMISE_2]
+[PROMISE_3]
+
+Examples:
+
+“More late-night talks”
+“More adventures together”
+“More birthdays beside you”
+“More memories to create”
+
+Cards should:
+
+float slowly
+glow softly
+react to hover
+tilt naturally
+
+FUTURE DREAM BOARD:
+Create aesthetic collage section with editable placeholders for:
+
+future travel goals
+dream photos
+relationship goals
+bucket list moments
+
+Placeholders:
+[FUTURE_IMAGE_1]
+[FUTURE_IMAGE_2]
+[BUCKET_LIST_TEXT]
+
+Style it like:
+
+Pinterest moodboard
+scrapbook collage
+cinematic dream wall
+
+SPECIAL INTERACTION:
+Add “Make A Wish ❤️” button.
+
+When clicked:
+
+stars burst across screen
+hearts float upward
+glowing particles expand
+background music swells softly
+hidden romantic message appears
+
+Placeholder:
+[FINAL_HIDDEN_MESSAGE]
+
+MUSIC EXPERIENCE:
+Continue emotional background music with:
+
+smooth fade transitions
+soft ambient echo effects
+elegant minimal music controls
+
+EMOTIONAL FINAL MESSAGE:
+Create dramatic cinematic ending section.
+
+Display text slowly:
+“If I had to choose again…
+I would still choose you.
+Every single time. ❤️”
+
+Then reveal:
+“Happy Birthday, [BOYFRIEND_NAME]”
+
+Below:
+“With all my love, forever and always — [YOUR_NAME]”
+
+FINAL VISUAL:
+Add:
+
+slow cinematic zoom out
+floating heart particles
+stars fading into darkness
+emotional fade ending
+
+FINAL BUTTONS:
+Include:
+
+“Replay Our Story”
+“Download Our Memories”
+“Leave A Message ❤️”
+
+OPTIONAL FEATURE:
+Allow editable guestbook/message section where boyfriend can type a reply.
+
+Placeholder:
+[WRITE_YOUR_MESSAGE]
+
+TYPOGRAPHY:
+Use:
+
+elegant cinematic serif fonts
+handwritten romantic accents
+modern luxury typography
+
+ANIMATIONS:
+Use Framer Motion style smooth animations:
+
+blur reveals
+cinematic fades
+floating motion
+layered depth transitions
+parallax scrolling
+emotional zoom effects
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep EVERYTHING editable from config/constants file:
+
+names
+dates
+promises
+photos
+videos
+music
+messages
+colors

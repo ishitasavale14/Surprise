@@ -403,6 +403,12 @@ export default function Surprise() {
                 className="pt-16 flex flex-col items-center gap-4"
               >
                 <button
+                  onClick={() => setLocation("/reasons")}
+                  className="px-8 py-3 rounded-full glass-card hover:bg-white/50 border border-primary/30 text-foreground font-serif text-lg tracking-wide transition-all shadow-[0_0_15px_rgba(255,182,193,0.3)] hover:shadow-[0_0_20px_rgba(255,182,193,0.5)]"
+                >
+                  Reasons I Love You 💕
+                </button>
+                <button
                   onClick={() => setLocation("/")}
                   className="px-8 py-4 rounded-full bg-primary hover:bg-primary/90 text-white font-serif text-lg tracking-wide transition-all shadow-[0_0_20px_rgba(255,182,193,0.6)] hover:shadow-[0_0_30px_rgba(255,182,193,0.8)]"
                 >
