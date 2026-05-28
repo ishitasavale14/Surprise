@@ -1,0 +1,177 @@
+Create an emotional cinematic “Birthday Surprise Reveal” page for a romantic birthday website.
+
+The page should feel magical, exciting, emotional, and unforgettable — like the final reveal scene of a romantic movie mixed with a luxury interactive Instagram reel edit.
+
+STYLE:
+Dark luxury romantic aesthetic with dreamy lighting, glowing particles, floating hearts, cinematic transitions, and immersive interactions.
+
+Use:
+
+black background
+deep red gradients
+glowing pink highlights
+soft gold sparkles
+glassmorphism
+dreamy blur effects
+emotional cinematic atmosphere
+
+LAYOUT:
+Create a fullscreen interactive surprise experience with layered animations and immersive storytelling.
+
+INTRO SCENE:
+Start with a dark cinematic screen.
+
+At center display glowing animated text:
+“One last surprise for you… ❤️”
+
+Add:
+
+heartbeat pulse effect
+floating particles
+soft cinematic sound atmosphere
+slow zoom background motion
+
+After a few seconds:
+show glowing button:
+“Tap To Unlock”
+
+BUTTON INTERACTION:
+When clicked:
+trigger dramatic cinematic reveal animation:
+
+screen flashes softly
+hearts explode gently
+background lights expand
+romantic music intensifies
+smooth blur transition
+
+SURPRISE REVEAL SECTION:
+Reveal a luxury animated birthday showcase.
+
+Include editable sections for:
+
+birthday video montage
+special message
+photo carousel
+surprise gift reveal
+relationship highlights
+
+Editable placeholders:
+[BIRTHDAY_VIDEO]
+[SURPRISE_MESSAGE]
+[GIFT_IMAGE]
+[PHOTO_1]
+[PHOTO_2]
+[PHOTO_3]
+
+VIDEO EXPERIENCE:
+Display cinematic floating video player with:
+
+rounded glass borders
+glowing shadows
+autoplay option
+smooth hover animations
+
+PHOTO CAROUSEL:
+Create horizontal animated memory carousel with:
+
+floating polaroids
+cinematic transitions
+scrapbook layering
+glowing hover effect
+
+Each image should support:
+
+caption
+date
+hidden note
+
+Placeholders:
+[PHOTO_CAPTION]
+[PHOTO_DATE]
+[HIDDEN_NOTE]
+
+INTERACTIVE GIFT BOX:
+Add animated luxury 3D gift box.
+
+When user clicks gift box:
+
+lid opens smoothly
+hearts burst out
+glow expands
+hidden message appears
+
+Hidden surprise options:
+
+custom love message
+proposal text
+inside joke
+future plans
+Spotify playlist link
+
+Editable placeholders:
+[SECRET_MESSAGE]
+[SPOTIFY_LINK]
+
+SPECIAL EFFECTS:
+Add:
+
+floating heart trails
+sparkles following cursor
+ambient glow particles
+slow cinematic parallax
+smooth depth effects
+
+BACKGROUND:
+Use cinematic animated background with optional editable video or moving gradients.
+
+Placeholders:
+[BACKGROUND_VIDEO]
+[BACKGROUND_IMAGE]
+
+EMOTIONAL FINAL SECTION:
+At bottom create emotional ending scene.
+
+Display animated text:
+“No matter where life takes us…
+I’ll always choose you. ❤️”
+
+Then slowly reveal:
+“Happy Birthday, [BOYFRIEND_NAME]”
+
+Add glowing animated signature:
+“With all my love,
+[YOUR_NAME]”
+
+FINAL INTERACTION:
+Add button:
+“Replay Our Love Story”
+
+This should smoothly restart website experience.
+
+TYPOGRAPHY:
+Use cinematic luxury fonts mixed with soft handwritten accents.
+
+ANIMATIONS:
+Use Framer Motion style ultra-smooth animations:
+
+blur reveal
+fade transitions
+floating motion
+cinematic zoom
+layered scroll animations
+smooth scaling
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep EVERYTHING editable from config/constants file:
+
+names
+images
+videos
+music
+messages
+colors
+links
+surprise text

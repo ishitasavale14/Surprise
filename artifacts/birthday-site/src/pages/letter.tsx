@@ -339,7 +339,8 @@ export default function Letter() {
               className="mt-32 flex flex-col items-center gap-6"
             >
               <button 
-                onClick={() => alert("Happy Birthday! The surprise is waiting for you! 🎉")}
+                data-testid="unlock-surprise-button"
+                onClick={() => setLocation("/surprise")}
                 className="px-10 py-5 rounded-full bg-primary/90 hover:bg-primary text-white font-serif text-xl tracking-wide transition-all shadow-lg hover:shadow-[0_0_30px_rgba(255,182,193,0.8)] backdrop-blur-md overflow-hidden relative group"
               >
                 <span className="relative z-10 flex items-center gap-2">
