@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Music, Pause, Play, Sparkles } from "lucide-react";
+import { useLocation } from "wouter";
 import { config } from "@/config";
 
 function FloatingParticles() {
@@ -85,6 +86,7 @@ function ClickBurst() {
 }
 
 export default function Home() {
+  const [, setLocation] = useLocation();
   const [loading, setLoading] = useState(true);
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -209,7 +211,10 @@ export default function Home() {
               </h2>
               
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10 relative z-10">
-                <button className="px-8 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg tracking-wide transition-all hover:shadow-[0_0_20px_rgba(255,182,193,0.6)] backdrop-blur-md overflow-hidden relative group">
+                <button 
+                  onClick={() => setLocation("/our-story")}
+                  className="px-8 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg tracking-wide transition-all hover:shadow-[0_0_20px_rgba(255,182,193,0.6)] backdrop-blur-md overflow-hidden relative group"
+                >
                   <span className="relative z-10">Enter Our Story</span>
                   <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/30 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
                 </button>
