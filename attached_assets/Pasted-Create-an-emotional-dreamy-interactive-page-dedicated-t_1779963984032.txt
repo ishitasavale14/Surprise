@@ -1,0 +1,231 @@
+Create an emotional dreamy interactive page dedicated to celebrating why my boyfriend is special.
+
+The page should feel:
+
+deeply emotional
+comforting
+magical
+warm
+personal
+cinematic
+like being wrapped inside a soft love-filled dream
+
+IMPORTANT:
+Follow the global light dreamy romantic aesthetic:
+
+pastel dreamy visuals
+soft glowing atmosphere
+Pinterest scrapbook energy
+airy cinematic mood
+elegant emotional storytelling
+
+COLOR PALETTE:
+Use:
+
+soft white
+blush pink
+pastel peach
+cream
+lavender
+baby blue
+warm sunlight gold
+rose gold accents
+
+BACKGROUND:
+Create a dreamy floating atmosphere with:
+
+clouds
+glowing haze
+floating butterflies
+flower petals
+soft sparkles
+sunlight rays
+bokeh lights
+pastel gradients
+
+LAYOUT:
+Create a fullscreen emotional storytelling experience with floating interactive sections.
+
+INTRO SECTION:
+Display cinematic animated heading:
+“What Makes You So Special ❤️”
+
+Subheading:
+“Some people enter your life quietly…
+and somehow become your whole world.”
+
+Animate with:
+
+soft fade reveal
+floating movement
+glow pulse
+blur-to-clear effect
+
+MAIN EXPERIENCE:
+Create multiple floating cinematic sections highlighting different qualities.
+
+Each section should include:
+
+editable title
+romantic description
+optional photo/video
+soft animation
+
+Editable placeholders:
+[QUALITY_TITLE_1]
+[QUALITY_DESCRIPTION_1]
+[QUALITY_IMAGE_1]
+
+Examples:
+
+“Your Smile”
+“Your Kindness”
+“The Way You Care”
+“Your Voice”
+“How Safe You Make Me Feel”
+
+CARD DESIGN:
+Style sections like:
+
+floating scrapbook pages
+soft glassmorphism cards
+dreamy paper notes
+Pinterest-style moodboards
+aesthetic memory frames
+
+Add:
+
+handwritten doodles
+floral stickers
+heart illustrations
+star sparkles
+taped photo edges
+
+INTERACTIVE FEATURES:
+When user taps/clicks a quality card:
+
+expand into cinematic modal
+softly blur background
+reveal deeper message
+play sparkle animation
+optional romantic sound effect
+
+Additional editable placeholders:
+[EXPANDED_MESSAGE]
+[VOICE_NOTE]
+[MINI_VIDEO]
+
+ANIMATIONS:
+Use:
+
+floating movement
+gentle parallax
+dreamy zoom effects
+glow transitions
+soft blur reveals
+cloud-like motion
+
+SPECIAL EFFECT:
+Add floating compliments appearing randomly like:
+
+“You feel like peace.”
+“You make life softer.”
+“My favorite person.”
+“You are loved endlessly.”
+
+Make compliments editable.
+
+DREAMY MEMORY SECTION:
+Create floating memory bubbles with:
+
+cute moments
+selfies
+random little memories
+funny screenshots
+aesthetic photos
+
+Editable placeholders:
+[MEMORY_BUBBLE_1]
+[MEMORY_BUBBLE_2]
+
+Bubbles should:
+
+float slowly
+glow softly
+expand slightly on hover
+drift like clouds
+
+MID-PAGE CINEMATIC QUOTE:
+Display:
+“If love had a face…
+I think it would look a little like you.”
+
+Animate with:
+
+floating typography
+dreamy glow
+cinematic fade reveal
+
+MUSIC:
+Continue soft dreamy romantic music seamlessly.
+
+Include:
+
+elegant minimal controls
+soft piano ambience
+dreamy lo-fi textures
+
+SPECIAL SECTION — “THE LITTLE THINGS”
+Create interactive mini moments section featuring:
+
+favorite habits
+cute little details
+tiny things I adore
+
+Editable placeholders:
+[LITTLE_THING_1]
+[LITTLE_THING_2]
+
+Style:
+
+floating sticky notes
+mini polaroids
+pastel tags
+handwritten cards
+
+ENDING SECTION:
+Display emotional ending message:
+“You deserve every beautiful thing this world can offer ❤️”
+
+Then:
+“Especially today.”
+
+Add glowing dreamy button:
+“Before You Leave…”
+
+Transition effects:
+
+floating petals
+dreamy sunlight flare
+cloud dissolve
+sparkle fade
+
+TYPOGRAPHY:
+Use:
+
+elegant handwritten fonts
+soft cinematic serif typography
+modern romantic UI fonts
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep EVERYTHING editable from config/constants file:
+
+messages
+qualities
+images
+videos
+compliments
+music
+colors

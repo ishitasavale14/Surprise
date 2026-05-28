@@ -1,0 +1,209 @@
+Create a soft dreamy romantic photo gallery page for a birthday surprise website.
+
+The page should feel like:
+
+floating through memories in the clouds
+a Pinterest-inspired love scrapbook
+a dreamy pastel photo diary
+magical, emotional, soft, and comforting
+
+IMPORTANT:
+Follow the global light dreamy aesthetic:
+
+pastel colors
+soft glowing light
+airy atmosphere
+dreamy animations
+cloud-like visuals
+elegant romantic mood
+
+COLOR PALETTE:
+Use:
+
+soft white
+blush pink
+pastel peach
+lavender
+cream
+champagne beige
+baby blue accents
+rose gold highlights
+
+BACKGROUND:
+Create a bright dreamy sky-like background with:
+
+floating clouds
+soft sunlight rays
+glowing haze
+dreamy blur gradients
+floating sparkles
+butterflies
+flower petals
+bokeh lights
+
+LAYOUT:
+Create a fullscreen immersive floating polaroid gallery experience.
+
+INTRO SECTION:
+Display animated heading:
+“Our Favorite Moments ☁️❤️”
+
+Subheading:
+“A collection of little memories that mean everything to me.”
+
+Animate text with:
+
+soft fade reveal
+floating motion
+blur-to-clear transition
+glowing sunlight effect
+
+FLOATING PHOTO WALL:
+Create a floating interactive gallery made of:
+
+polaroids
+scrapbook frames
+hanging photo strings
+layered paper cards
+soft tape decorations
+
+Editable placeholders:
+[GALLERY_IMAGE_1]
+[GALLERY_IMAGE_2]
+[GALLERY_IMAGE_3]
+
+Each photo should support:
+
+caption
+date
+hidden note
+
+Placeholders:
+[PHOTO_CAPTION]
+[PHOTO_DATE]
+[HIDDEN_MESSAGE]
+
+PHOTO EFFECTS:
+Photos should:
+
+float slowly
+rotate gently
+react to cursor movement
+glow softly on hover
+enlarge smoothly when clicked
+
+When photo opens:
+show cinematic popup modal with:
+
+enlarged image/video
+dreamy blurred background
+romantic message
+optional music snippet
+
+SCRAPBOOK DETAILS:
+Add:
+
+handwritten doodles
+tiny hearts
+stars
+flower illustrations
+butterflies
+sticker aesthetics
+torn paper textures
+
+Create authentic scrapbook feeling.
+
+INTERACTIVE CLOUDS:
+Add floating clouds users can click.
+
+When clicked:
+reveal hidden love notes.
+
+Editable placeholders:
+[CLOUD_MESSAGE_1]
+[CLOUD_MESSAGE_2]
+
+Examples:
+
+“You make my world softer.”
+“Every memory with you feels warm.”
+
+ANIMATIONS:
+Use gentle dreamy animations:
+
+floating movement
+soft zoom
+blur reveals
+cloud drift motion
+sparkle trails
+glowing transitions
+
+MUSIC:
+Continue soft romantic background music seamlessly.
+
+Add subtle dreamy audio visualizer near bottom.
+
+SPECIAL SECTION — “OUR LITTLE UNIVERSE”
+Create mini collage area featuring:
+
+favorite selfies
+funny memories
+aesthetic moments
+random cute photos
+
+Style it like:
+
+Pinterest moodboard
+soft collage journal
+floating memory cloud
+
+Editable placeholders:
+[UNIVERSE_IMAGE_1]
+[UNIVERSE_IMAGE_2]
+
+MID-PAGE EMOTIONAL QUOTE:
+Display cinematic quote:
+“You turned ordinary moments into my favorite memories.”
+
+Animate with:
+
+soft glow
+floating typography
+dreamy fade reveal
+
+ENDING SECTION:
+At bottom create emotional transition scene.
+
+Display:
+“And there are still so many memories left to create… ❤️”
+
+Add glowing dreamy button:
+“Continue Our Journey”
+
+Transition effect:
+
+cloud dissolve
+floating petals
+sparkle fade
+soft cinematic blur
+
+TYPOGRAPHY:
+Use:
+
+elegant handwritten fonts
+soft luxury serif fonts
+modern romantic typography
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep EVERYTHING editable from config/constants file:
+
+images
+captions
+notes
+colors
+music
+quotes
+stickers
+doodles

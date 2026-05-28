@@ -129,6 +129,58 @@ export const reasonsConfig = {
   ],
 };
 
+export const gamesConfig = {
+  heading: "A Few More Things Before You Go ❤️",
+  subheading: "Because loving you should always feel fun.",
+  endingText: "You make every moment feel magical ❤️",
+  ctaLabel: "Go Back To The Beginning",
+  // Memory Match
+  memoryCards: [
+    { id: "a", emoji: "🌸", label: "First Date", matchMessage: "Our first date — I was so nervous and so happy at the same time 🥹" },
+    { id: "b", emoji: "🌙", label: "Late Nights", matchMessage: "Those late-night talks are some of my favorite memories 🌙" },
+    { id: "c", emoji: "✈️", label: "Adventures", matchMessage: "I want a thousand more adventures with you ✈️" },
+    { id: "d", emoji: "☕", label: "Coffee Dates", matchMessage: "Every coffee is better when it's with you ☕" },
+    { id: "e", emoji: "💕", label: "Just Us", matchMessage: "My favorite place is anywhere you are 💕" },
+    { id: "f", emoji: "⭐", label: "Stargazing", matchMessage: "Even the stars can't compete with how bright you are ⭐" },
+  ],
+  // Quiz
+  quizQuestions: [
+    {
+      id: 1,
+      question: "What's my favorite thing about us?",
+      options: ["How we make each other laugh", "Our adventures", "The quiet moments", "All of the above"],
+      correct: 3,
+      correctMsg: "Of course — it's ALL of the above. You make everything my favorite. 💕",
+      wrongMsg: "Try again, love ❤️ Think about it...",
+    },
+    {
+      id: 2,
+      question: "How do I feel when I'm with you?",
+      options: ["Happy", "Safe", "Home", "All three, always"],
+      correct: 3,
+      correctMsg: "Yes — you feel like happiness, safety, and home all at once 🌸",
+      wrongMsg: "So close! But there's a better answer 💭",
+    },
+    {
+      id: 3,
+      question: "What's the best part of my day?",
+      options: ["Morning coffee", "Talking to you", "Sunsets", "Quiet evenings"],
+      correct: 1,
+      correctMsg: "Always, always talking to you. You're the highlight of every single day 🥹",
+      wrongMsg: "Sweet guess, but nope — it's you! 💕",
+    },
+  ],
+  // Heart Catch game
+  catchTargetScore: 10,
+  catchUnlockMessage: "You caught all my hearts — just like you caught mine 💕 Here's a secret: I fall for you a little more every day.",
+  // Easter eggs
+  easterEggs: [
+    { id: 1, message: "Psst — I think about you way too much. And I'm not even sorry. 💭" },
+    { id: 2, message: "You're literally my favorite notification 📱💕" },
+    { id: 3, message: "Fun fact: you're the reason I smile at my phone like a weirdo 😊" },
+  ],
+};
+
 export const futureConfig = {
   heading: "Our Forever Starts Here ❤️",
   subheading1: "No matter how many birthdays pass…",

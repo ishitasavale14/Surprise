@@ -495,6 +495,13 @@ export default function Future() {
         </button>
 
         <button
+          onClick={() => setLocation("/games")}
+          className="px-8 py-3 rounded-full glass-card text-foreground font-serif transition-colors hover:bg-white/40 mt-2"
+        >
+          Hidden Surprises 🎮
+        </button>
+
+        <button
           onClick={() => setLocation("/")}
           className="font-serif text-sm text-foreground/50 hover:text-primary transition-colors mt-4"
         >

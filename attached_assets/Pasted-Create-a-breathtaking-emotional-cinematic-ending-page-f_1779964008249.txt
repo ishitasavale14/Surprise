@@ -1,0 +1,192 @@
+Create a breathtaking emotional cinematic ending page for a romantic birthday website.
+
+This should feel like:
+
+the final scene of a romantic movie
+dreamy
+emotional
+peaceful
+unforgettable
+deeply intimate
+
+The page should leave the user emotional and smiling.
+
+STYLE:
+Dark luxury romantic aesthetic with celestial night-sky visuals, dreamy cinematic lighting, floating stars, emotional typography, and magical ambience.
+
+Use:
+
+black sky background
+deep wine-red gradients
+glowing pink highlights
+soft moonlight tones
+star particles
+dreamy blur effects
+cinematic fog
+glassmorphism accents
+
+LAYOUT:
+Create a fullscreen immersive outro experience with layered cinematic animations.
+
+BACKGROUND SCENE:
+Design animated night sky environment with:
+
+moving stars
+shooting stars
+floating glowing particles
+moonlight glow
+slow clouds/fog
+cinematic parallax depth
+
+Optional editable placeholders:
+[NIGHT_SKY_VIDEO]
+[BACKGROUND_IMAGE]
+
+INTRO TEXT:
+Display cinematic animated text:
+“And if this moment could last forever…
+I think I’d still stay right here with you. ❤️”
+
+Animate with:
+
+slow fade reveal
+blur-to-clear motion
+cinematic zoom
+glowing text pulse
+
+CENTER VISUAL:
+Create floating couple silhouette or editable image frame.
+
+Placeholders:
+[FINAL_COUPLE_IMAGE]
+
+Image should:
+
+float softly
+glow subtly
+move slightly with cursor
+have dreamy blurred edge lighting
+
+MEMORY CONSTELLATIONS:
+Create interactive star constellations in sky.
+
+When user taps/clicks stars:
+show hidden memories/messages.
+
+Editable placeholders:
+[CONSTELLATION_MESSAGE_1]
+[CONSTELLATION_MESSAGE_2]
+
+Examples:
+
+“Our first conversation”
+“The day I realized I loved you”
+“My safest place”
+
+Add:
+
+glowing connecting lines
+sparkle animations
+soft sound effects
+
+SPECIAL EFFECT — SHOOTING STAR WISH:
+Add interactive shooting star button:
+“Make A Birthday Wish ✨”
+
+When clicked:
+
+shooting stars cross screen
+stars brighten
+floating hearts rise
+hidden emotional message appears
+soft music swell effect
+
+Placeholder:
+[FINAL_WISH_MESSAGE]
+
+ROMANTIC QUOTE SECTION:
+Display large cinematic quote:
+“You are my today, my tomorrow, and every beautiful thing in between.”
+
+Animate slowly with:
+
+floating movement
+soft glow
+blur reveal
+
+MUSIC ENDING:
+Continue emotional background music.
+
+Gradually fade music softer near end.
+
+Include elegant minimal controls:
+
+play/pause
+mute
+replay
+
+FINAL MESSAGE REVEAL:
+At end of page reveal dramatic emotional text sequence one line at a time:
+
+“Thank you for existing.”
+“Thank you for loving me.”
+“Thank you for being mine.”
+“Happy Birthday, [BOYFRIEND_NAME] ❤️”
+
+Then reveal signature:
+“Forever yours,
+[YOUR_NAME]”
+
+FINAL ANIMATION:
+Create emotional cinematic ending:
+
+stars slowly fading
+floating hearts disappearing
+gentle zoom out
+dreamy fade into darkness
+
+FINAL BUTTONS:
+Include elegant glowing buttons:
+
+“Replay Our Story”
+“Visit Memory Timeline”
+“Read The Letter Again”
+
+OPTIONAL FEATURE:
+Add downloadable digital memory scrapbook/gallery section.
+
+Placeholders:
+[DOWNLOAD_LINK]
+[SCRAPBOOK_PDF]
+
+TYPOGRAPHY:
+Use:
+
+elegant cinematic serif fonts
+handwritten romantic accents
+luxury minimalist typography
+
+ANIMATIONS:
+Use Framer Motion style cinematic animations:
+
+blur transitions
+fade reveals
+parallax motion
+floating depth layers
+smooth zoom effects
+dreamy particle animations
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep EVERYTHING editable from config/constants file:
+
+names
+messages
+photos
+videos
+quotes
+music
+hidden notes
+links
+colors

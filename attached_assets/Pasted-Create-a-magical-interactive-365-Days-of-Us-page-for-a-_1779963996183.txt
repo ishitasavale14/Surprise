@@ -1,0 +1,224 @@
+Create a magical interactive “365 Days of Us” page for a romantic birthday website.
+
+The page should feel:
+
+nostalgic
+emotional
+dreamy
+warm
+intimate
+like revisiting an entire year of love one memory at a time
+
+IMPORTANT:
+Follow the global light dreamy romantic aesthetic:
+
+pastel dreamy visuals
+soft glowing atmosphere
+Pinterest scrapbook mood
+airy cinematic storytelling
+warm romantic energy
+
+COLOR PALETTE:
+Use:
+
+soft white
+blush pink
+pastel peach
+cream
+lavender
+warm beige
+soft sky blue
+rose gold highlights
+
+BACKGROUND:
+Create dreamy background with:
+
+floating clouds
+sunlight glow
+flower petals
+butterflies
+sparkles
+glowing haze
+soft bokeh lights
+moving pastel gradients
+
+LAYOUT:
+Create a fullscreen immersive romantic calendar/timeline experience.
+
+INTRO SECTION:
+Display animated heading:
+“365 Days of Us ☁️❤️”
+
+Subheading:
+“A whole year filled with little moments that became everything to me.”
+
+Animate with:
+
+soft fade reveal
+floating typography
+blur-to-clear transitions
+dreamy sunlight glow
+
+MAIN FEATURE — INTERACTIVE MEMORY CALENDAR
+Create aesthetic interactive calendar/timeline layout.
+
+Each day or memory card should support:
+
+image/video
+short note
+date
+hidden memory
+optional audio
+
+Editable placeholders:
+[DAY_IMAGE_1]
+[DAY_NOTE_1]
+[DAY_DATE_1]
+
+Style calendar like:
+
+Pinterest scrapbook planner
+dreamy journal pages
+floating memory notes
+aesthetic diary layout
+
+CARD DESIGN:
+Each memory card should look like:
+
+mini polaroids
+diary notes
+taped scrapbook photos
+pastel sticky notes
+handwritten memory cards
+
+Add:
+
+floral doodles
+tiny hearts
+stars
+paper textures
+aesthetic stickers
+
+INTERACTION:
+When user clicks memory:
+open cinematic popup modal with:
+
+enlarged photo/video
+emotional message
+optional voice note
+hidden details
+
+Editable placeholders:
+[EXPANDED_MEMORY]
+[VOICE_NOTE]
+[MINI_VIDEO]
+
+ANIMATIONS:
+Use:
+
+floating card movement
+dreamy parallax
+soft zoom effects
+glow reveals
+cloud-like transitions
+cinematic scrolling
+
+SPECIAL FEATURE — MEMORY OF THE MONTH
+Highlight one featured memory with premium cinematic layout.
+
+Editable placeholders:
+[FEATURED_MEMORY_IMAGE]
+[FEATURED_MEMORY_TEXT]
+
+Style:
+
+glowing frame
+dreamy blur effects
+floating flower petals
+soft animated sparkles
+
+EMOTIONAL MINI NOTES:
+Scatter tiny floating romantic notes around page like:
+
+“One of my favorite days.”
+“I wish I could relive this forever.”
+“You made this day beautiful.”
+
+Make notes editable.
+
+PHOTO CLOUD STRIP:
+Create floating horizontal strip of mini aesthetic memories.
+
+Editable placeholders:
+[MINI_STRIP_IMAGE_1]
+[MINI_STRIP_IMAGE_2]
+
+Images should:
+
+drift softly
+enlarge on hover
+glow gently
+move with cursor slightly
+
+MUSIC:
+Continue soft dreamy romantic music seamlessly.
+
+Add:
+
+elegant minimal controls
+soft piano ambience
+dreamy ambient textures
+
+MID-PAGE QUOTE:
+Display cinematic quote:
+“The best part of every day somehow became you.”
+
+Animate with:
+
+dreamy glow
+floating movement
+cinematic fade reveal
+
+SPECIAL SECTION — FUTURE CALENDAR
+Create soft glowing unfinished future pages with text:
+“More beautiful memories loading… ❤️”
+
+Add editable placeholders:
+[FUTURE_GOAL_1]
+[FUTURE_GOAL_2]
+
+ENDING SECTION:
+Display emotional ending text:
+“And no matter how many days pass…
+I know my favorite ones will always include you.”
+
+Add glowing dreamy button:
+“Your Final Surprise Awaits ☁️”
+
+Transition effects:
+
+floating clouds
+sparkle fade
+soft blur dissolve
+sunlight flare transition
+
+TYPOGRAPHY:
+Use:
+
+elegant handwritten fonts
+dreamy serif typography
+soft romantic UI fonts
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep EVERYTHING editable from config/constants file:
+
+memories
+dates
+images
+videos
+notes
+future goals
+music
+colors
