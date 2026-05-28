@@ -10,6 +10,10 @@ import Reasons from "@/pages/reasons";
 import Surprise from "@/pages/surprise";
 import Future from "@/pages/future";
 import Games from "@/pages/games";
+import Gallery from "@/pages/gallery";
+import Special from "@/pages/special";
+import Days from "@/pages/days";
+import Ending from "@/pages/ending";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +27,10 @@ function Router() {
       <Route path="/surprise" component={Surprise} />
       <Route path="/future" component={Future} />
       <Route path="/games" component={Games} />
+      <Route path="/gallery" component={Gallery} />
+      <Route path="/special" component={Special} />
+      <Route path="/days" component={Days} />
+      <Route path="/ending" component={Ending} />
       <Route component={NotFound} />
     </Switch>
   );

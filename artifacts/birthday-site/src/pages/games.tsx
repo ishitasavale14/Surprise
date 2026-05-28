@@ -512,10 +512,10 @@ export default function Games() {
           </button>
           
           <button
-            onClick={() => setLocation("/future")}
+            onClick={() => setLocation("/gallery")}
             className="px-8 py-4 rounded-full glass-card text-foreground font-serif text-lg transition-colors hover:bg-white/40"
           >
-            Future Together →
+            Photo Gallery →
           </button>
         </div>
 

@@ -211,3 +211,111 @@ export const futureConfig = {
   guestbookPlaceholder: "Write something back to me… 💕",
 };
 
+export const galleryConfig = {
+  heading: "Our Favorite Moments ☁️",
+  subheading: "A collection of little memories that mean everything to me.",
+  midQuote: "You turned ordinary moments into my favorite memories.",
+  endingLine: "And there are still so many memories left to create… ❤️",
+  ctaLabel: "Continue Our Journey",
+  cloudMessages: [
+    "You make my world softer.",
+    "Every memory with you feels warm.",
+    "I never want to forget a single moment.",
+  ],
+  photos: [
+    { id: 1, caption: "My favorite day", date: "[Date]", hiddenNote: "I still smile every time I think about this 🌸", rotate: -3, emoji: "🌸" },
+    { id: 2, caption: "Just us", date: "[Date]", hiddenNote: "This is my phone wallpaper and it makes me so happy 💕", rotate: 4, emoji: "💕" },
+    { id: 3, caption: "Pure joy", date: "[Date]", hiddenNote: "I want a thousand more days exactly like this ✨", rotate: -2, emoji: "✨" },
+    { id: 4, caption: "Wherever we go", date: "[Date]", hiddenNote: "My favorite place is always wherever you are 🌙", rotate: 3, emoji: "🌙" },
+    { id: 5, caption: "Worth remembering", date: "[Date]", hiddenNote: "I'm so glad we have this memory 🥹", rotate: -5, emoji: "🥹" },
+    { id: 6, caption: "Our little world", date: "[Date]", hiddenNote: "This felt like magic and I hope you felt it too ⭐", rotate: 2, emoji: "⭐" },
+  ],
+};
+
+export const specialConfig = {
+  heading: "What Makes You So Special ❤️",
+  subheading1: "Some people enter your life quietly…",
+  subheading2: "and somehow become your whole world.",
+  midQuote: "If love had a face… I think it would look a little like you.",
+  endingLine1: "You deserve every beautiful thing this world can offer ❤️",
+  endingLine2: "Especially today.",
+  ctaLabel: "Before You Leave…",
+  floatingCompliments: [
+    "You feel like peace.",
+    "You make life softer.",
+    "My favorite person.",
+    "You are loved endlessly.",
+    "You're my safe place.",
+  ],
+  littleThings: [
+    { id: 1, text: "The way you check in on people you care about" },
+    { id: 2, text: "How you make everyone around you feel seen" },
+    { id: 3, text: "Your laugh — specifically the really big one" },
+    { id: 4, text: "The way you remember small details about things I've said" },
+    { id: 5, text: "How you always know exactly what to say" },
+    { id: 6, text: "The warmth you carry just by being in a room" },
+  ],
+  qualities: [
+    { id: 1, title: "Your Smile", emoji: "🌸", description: "It's the kind of smile that stops time. Warm, real, completely yours. I could look at it forever and never get tired.", expandedMessage: "Genuinely — your smile is one of the most beautiful things I've ever seen. And I mean that.", rotate: -2 },
+    { id: 2, title: "Your Kindness", emoji: "💕", description: "You love loudly in the quietest ways. The way you care for people — truly care — is rare and remarkable.", expandedMessage: "I don't think you realize how special your kindness is. The world is genuinely better because of how you move through it.", rotate: 3 },
+    { id: 3, title: "The Way You Care", emoji: "✨", description: "You notice things. You remember things. You show up in ways most people don't even think to. That means everything.", expandedMessage: "Being cared for by you feels like the safest thing in the world. I'm so grateful for it.", rotate: -4 },
+    { id: 4, title: "Your Mind", emoji: "🌙", description: "The way you think, the way you see things — it never stops fascinating me. I could listen to you talk for hours.", expandedMessage: "Your perspective on things is one of my favorite things about you. You make me think differently, and I love that.", rotate: 2 },
+    { id: 5, title: "How You Make Me Feel", emoji: "⭐", description: "Safe. Seen. Loved. Like myself — but the best version. That's what you do just by being you.", expandedMessage: "I didn't know a person could feel this comfortable until I met you. You are home.", rotate: -3 },
+    { id: 6, title: "Simply, You", emoji: "☀️", description: "I could list reasons forever. But really? I love you because you're you. That's always been enough.", expandedMessage: "There is no better reason than you just existing and being exactly who you are. Happy birthday. 💕", rotate: 4 },
+  ],
+};
+
+export const daysConfig = {
+  heading: "365 Days of Us ☁️❤️",
+  subheading: "A whole year filled with little moments that became everything to me.",
+  midQuote: "The best part of every day somehow became you.",
+  endingLine1: "And no matter how many days pass…",
+  endingLine2: "I know my favorite ones will always include you.",
+  ctaLabel: "Your Final Surprise Awaits ☁️",
+  featuredMemory: {
+    title: "The Day Everything Changed",
+    text: "Some days don't feel important when they're happening. But looking back, you realize they were the ones that mattered most. This was one of those days.",
+    emoji: "✨",
+  },
+  memories: [
+    { id: 1, month: "January", emoji: "❄️", note: "A quiet start that somehow felt like everything", hiddenMemory: "I think about this month a lot. It was simple and perfect." },
+    { id: 2, month: "February", emoji: "💕", note: "The month I realized how lucky I was", hiddenMemory: "You made this month feel like a whole love story." },
+    { id: 3, month: "March", emoji: "🌸", note: "New beginnings and you at the center of them", hiddenMemory: "Everything started feeling brighter around this time." },
+    { id: 4, month: "April", emoji: "🌧️", note: "Even the rainy days felt beautiful", hiddenMemory: "Bad weather doesn't feel bad when you're the company." },
+    { id: 5, month: "May", emoji: "🌷", note: "Adventures and laughter and all the good things", hiddenMemory: "This is one of my favorite months to look back on." },
+    { id: 6, month: "June", emoji: "☀️", note: "Sunshine and late nights and everything in between", hiddenMemory: "Long summer days feel made for moments like these." },
+    { id: 7, month: "July", emoji: "🌊", note: "The kind of warmth that stays with you", hiddenMemory: "I felt so full of happiness this month." },
+    { id: 8, month: "August", emoji: "🌻", note: "Golden hour and golden memories", hiddenMemory: "Every memory from this month glows a little." },
+    { id: 9, month: "September", emoji: "🍂", note: "Softer days, deeper feelings", hiddenMemory: "Fall always reminds me of cozy moments with you." },
+    { id: 10, month: "October", emoji: "🎃", note: "The one where we made magic out of ordinary", hiddenMemory: "You make even the most regular things feel special." },
+    { id: 11, month: "November", emoji: "🍁", note: "Grateful — for every moment, every laugh, you", hiddenMemory: "If I had to name one thing I'm most grateful for, it's this." },
+    { id: 12, month: "December", emoji: "✨", note: "A whole year of you. Worth every single second.", hiddenMemory: "365 days with you and I'd do it all again in a heartbeat." },
+  ],
+  futureGoals: [
+    "A trip somewhere neither of us has been",
+    "Watching the sunrise together",
+    "Making a whole new set of favorite memories",
+  ],
+};
+
+export const endingConfig = {
+  introLines: [
+    "And if this moment could last forever…",
+    "I think I'd still stay right here with you. ❤️",
+  ],
+  bigQuote: "You are my today, my tomorrow, and every beautiful thing in between.",
+  wishMessage: "Every wish I've ever made has somehow looked like you. Happy Birthday, my love. ❤️",
+  finalLines: [
+    "Thank you for existing.",
+    "Thank you for loving me.",
+    "Thank you for being mine.",
+  ],
+  constellationMessages: [
+    { id: 1, label: "Our first conversation", message: "I remember being so nervous and so excited at the same time. You had no idea what you were about to mean to me." },
+    { id: 2, label: "The day I realized", message: "There was a specific moment I knew. I haven't been the same since, and I don't want to be." },
+    { id: 3, label: "My safest place", message: "Wherever you are — that's where I feel most like myself. You are home." },
+    { id: 4, label: "A memory I hold close", message: "I replay certain moments just to feel them again. You've given me so many of those." },
+    { id: 5, label: "Right now", message: "Right now, on your birthday, I just want you to know: I am so grateful you exist." },
+  ],
+};
+
