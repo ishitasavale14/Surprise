@@ -1,0 +1,136 @@
+Create an immersive cinematic romantic birthday website landing page inspired by emotional Instagram reel edits and luxury scrapbook aesthetics.
+
+The website should feel like:
+
+a love story film intro
+dreamy and emotional
+modern Gen-Z romantic aesthetic
+dark luxury UI
+interactive and cinematic
+smooth and magical
+
+PRIMARY STYLE:
+Black background with deep wine-red gradients, soft pink glows, floating particles, blurred lights, glassmorphism cards, smooth animations, and emotional typography.
+
+Make the website mobile-first but fully responsive on desktop.
+
+FULLSCREEN HERO SECTION:
+Create a fullscreen animated intro section with a cinematic atmosphere.
+
+BACKGROUND:
+Use a fullscreen editable video background placeholder with dark overlay.
+Allow easy replacement of:
+
+videos
+photos
+names
+text
+colors
+songs
+
+Use placeholders:
+[BACKGROUND_VIDEO]
+[COUPLE_IMAGE]
+[BOYFRIEND_NAME]
+[YOUR_NAME]
+
+VISUAL EFFECTS:
+
+floating hearts
+glowing particles
+sparkles
+ambient blur lights
+slow cinematic zoom
+parallax motion
+smooth grain texture
+touch interaction effects
+
+When user taps/clicks screen:
+small glowing hearts should softly burst from cursor position.
+
+TYPOGRAPHY:
+Use large cinematic typography with emotional spacing.
+Modern luxury fonts similar to Instagram cinematic edits.
+
+TEXT ANIMATION:
+Main heading:
+“Happy Birthday, [BOYFRIEND_NAME] ❤️”
+
+Subheading:
+“A little universe made only for you.”
+
+Animate text with:
+
+fade reveal
+smooth upward motion
+cinematic delay
+glow pulse
+
+CENTER GLASSMORPHISM CARD:
+Create floating glass-effect card in center containing:
+
+editable couple image
+editable quote
+editable special date
+heartbeat animation
+
+Placeholders:
+[COUPLE_IMAGE]
+[CUSTOM_QUOTE]
+[SPECIAL_DATE]
+
+MUSIC:
+Add background romantic music with:
+
+autoplay
+play/pause toggle
+mute button
+editable music file
+
+BUTTONS:
+Create glowing luxury buttons:
+
+“Enter Our Story”
+“Open Your Surprise”
+
+Buttons should have:
+
+hover glow
+liquid animation
+smooth transition
+cinematic page transition on click
+
+LOADING EXPERIENCE:
+Add aesthetic loading screen before website opens:
+
+glowing heart animation
+soft blur background
+text:
+“Loading your love story…”
+
+ANIMATIONS:
+Use ultra-smooth transitions with Framer Motion style effects:
+
+fade in
+blur reveal
+slow zoom
+floating movement
+layered transitions
+cinematic scroll animations
+
+FOOTER:
+Small elegant footer:
+“Made with love by [YOUR_NAME]”
+
+TECH REQUIREMENTS:
+Use React + Tailwind CSS + Framer Motion.
+
+Structure project cleanly with editable config/constants file for:
+
+names
+quotes
+photos
+videos
+music
+dates
+colors

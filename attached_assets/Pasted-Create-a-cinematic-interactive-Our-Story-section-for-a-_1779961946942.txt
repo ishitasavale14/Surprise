@@ -1,0 +1,141 @@
+Create a cinematic interactive “Our Story” section for a romantic birthday website.
+
+The page should feel like:
+
+an emotional scrapbook
+a nostalgic memory diary
+an Instagram reel montage
+dreamy and cinematic
+soft, romantic, emotional, and immersive
+
+STYLE:
+Dark luxury romantic aesthetic with scrapbook layering, floating polaroids, handwritten notes, glowing transitions, blurred lights, and smooth animations.
+
+COLORS:
+Black background, deep red gradients, soft pink glow, warm white text, subtle golden accents.
+
+LAYOUT:
+Create a vertical scrolling memory timeline with cinematic transitions between moments.
+
+The entire page should feel alive and emotional while scrolling.
+
+SECTION INTRO:
+At top center display animated heading:
+“Our Story ❤️”
+
+Subheading:
+“Every moment with you became my favorite memory.”
+
+Animate with:
+
+fade reveal
+blur-to-clear transition
+soft glow pulse
+cinematic upward motion
+
+TIMELINE DESIGN:
+Create an interactive vertical timeline of memories.
+
+Each memory card should include editable placeholders:
+
+image/video
+date
+title
+description
+optional voice note/music
+
+Use placeholders:
+[MEMORY_IMAGE_1]
+[MEMORY_DATE_1]
+[MEMORY_TITLE_1]
+[MEMORY_TEXT_1]
+
+Allow unlimited editable memory sections.
+
+SCRAPBOOK STYLE:
+Design memory cards like:
+
+polaroids
+torn paper notes
+layered photographs
+aesthetic tape stickers
+handwritten captions
+floating mini hearts
+
+Cards should appear slightly rotated randomly for authentic scrapbook feel.
+
+SCROLL ANIMATIONS:
+As user scrolls:
+
+memories fade in softly
+photos zoom slowly
+cards slide smoothly
+background lights move subtly
+text reveals cinematically
+
+Use parallax depth effects for immersive storytelling.
+
+SPECIAL INTERACTIONS:
+When user taps a memory:
+
+open cinematic popup modal
+enlarge image/video
+play optional romantic audio
+show hidden message
+
+Add editable placeholders:
+[HIDDEN_MESSAGE]
+[MEMORY_VIDEO]
+[VOICE_NOTE]
+
+BACKGROUND EFFECTS:
+
+floating particles
+moving blurred gradients
+glowing dust
+soft heart animations
+ambient cinematic lighting
+
+Add occasional animated handwritten doodles like:
+
+hearts
+stars
+arrows
+“forever”
+“my person”
+
+TRANSITION SECTION:
+Between memories add emotional quotes like:
+“You became my safest place.”
+“With you, ordinary moments felt magical.”
+
+Keep quotes editable.
+
+MUSIC EXPERIENCE:
+Continue background music from landing page smoothly without interruption.
+
+BUTTON AT END:
+Add glowing button:
+“Open Birthday Letter ❤️”
+
+Button should transition to next page with cinematic fade effect.
+
+TYPOGRAPHY:
+Mix:
+
+elegant cinematic fonts
+soft handwritten fonts
+luxury minimal typography
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep all content editable from config/constants file:
+
+images
+videos
+text
+dates
+music
+colors
+quotes
