@@ -129,3 +129,33 @@ export const reasonsConfig = {
   ],
 };
 
+export const futureConfig = {
+  heading: "Our Forever Starts Here ❤️",
+  subheading1: "No matter how many birthdays pass…",
+  subheading2: "I just want to keep loving you.",
+  relationshipStartDate: "2024-01-01", // placeholder — user will replace
+  counterLabel: "We've been creating memories for…",
+  promises: [
+    { id: 1, text: "More late-night talks that turn into morning", emoji: "🌙" },
+    { id: 2, text: "More adventures we haven't planned yet", emoji: "✈️" },
+    { id: 3, text: "More birthdays beside you", emoji: "🎂" },
+    { id: 4, text: "More ordinary days that feel extraordinary", emoji: "☀️" },
+    { id: 5, text: "More memories to look back on and smile", emoji: "📸" },
+    { id: 6, text: "A lifetime of choosing each other", emoji: "💕" },
+  ],
+  bucketList: [
+    "Travel somewhere neither of us has been",
+    "Watch the sunrise together",
+    "Dance in the rain",
+    "Build something of our own",
+    "Grow old, still laughing",
+  ],
+  makeAWishMessage: "Every wish I make has you in it. Happy Birthday, my love. ❤️",
+  finalLines: [
+    "If I had to choose again…",
+    "I would still choose you.",
+    "Every single time. ❤️",
+  ],
+  guestbookPlaceholder: "Write something back to me… 💕",
+};
+

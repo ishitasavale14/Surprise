@@ -8,6 +8,7 @@ import OurStory from "@/pages/our-story";
 import Letter from "@/pages/letter";
 import Reasons from "@/pages/reasons";
 import Surprise from "@/pages/surprise";
+import Future from "@/pages/future";
 
 const queryClient = new QueryClient();
 
@@ -19,6 +20,7 @@ function Router() {
       <Route path="/letter" component={Letter} />
       <Route path="/reasons" component={Reasons} />
       <Route path="/surprise" component={Surprise} />
+      <Route path="/future" component={Future} />
       <Route component={NotFound} />
     </Switch>
   );

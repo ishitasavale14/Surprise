@@ -1,0 +1,207 @@
+Create a playful romantic “Hidden Surprises & Mini Games” page for a cinematic birthday website.
+
+The page should feel:
+
+cute
+interactive
+emotionally playful
+magical
+exciting
+like discovering hidden surprises inside a love story
+
+STYLE:
+Dark romantic luxury aesthetic mixed with fun playful scrapbook energy.
+
+Use:
+
+black background
+deep red gradients
+glowing pink accents
+dreamy sparkles
+floating hearts
+soft neon glow
+glassmorphism
+cinematic lighting
+
+LAYOUT:
+Create a fullscreen immersive interactive page with multiple hidden activities and romantic mini-games.
+
+INTRO SECTION:
+Display animated heading:
+“A Few More Things Before You Go ❤️”
+
+Subheading:
+“Because loving you should always feel fun.”
+
+Animate with:
+
+cinematic fade reveal
+floating text motion
+glow pulse
+blur-to-clear transitions
+
+BACKGROUND:
+Use animated dreamy background with:
+
+floating stars
+glowing particles
+soft fog
+moving blurred lights
+cursor-following sparkles
+
+MINI GAME 1 — MEMORY MATCH ❤️
+Create a romantic memory card matching game.
+
+Cards should use editable placeholders:
+[MEMORY_CARD_IMAGE_1]
+[MEMORY_CARD_IMAGE_2]
+
+When matched:
+
+glowing heart animation appears
+romantic message reveals
+sparkle explosion effect
+
+Add editable messages:
+[MATCH_MESSAGE_1]
+
+Style:
+
+luxury glass cards
+soft hover glow
+smooth flip animation
+
+MINI GAME 2 — “HOW WELL DO YOU KNOW US?”
+Create interactive romantic quiz.
+
+Editable placeholders:
+[QUESTION_1]
+[OPTION_A]
+[OPTION_B]
+[CORRECT_ANSWER]
+
+Examples:
+
+“Where did we first talk?”
+“Who said ‘I love you’ first?”
+
+After correct answers:
+
+floating hearts appear
+sweet message unlocks
+
+After wrong answer:
+
+playful cute animation
+“Try again, love ❤️”
+
+MINI GAME 3 — CATCH THE HEARTS
+Create cute floating heart-catching mini game.
+
+Features:
+
+hearts float upward
+score counter
+glowing effects
+romantic soundtrack
+
+When user reaches target score:
+unlock hidden surprise section.
+
+Placeholder:
+[SECRET_UNLOCK_MESSAGE]
+
+SECRET SURPRISE SECTION:
+After completing games:
+unlock hidden cinematic section.
+
+Reveal:
+
+hidden love letter
+surprise video
+romantic voice note
+secret photos
+future message
+
+Editable placeholders:
+[SECRET_VIDEO]
+[VOICE_NOTE]
+[SECRET_LOVE_MESSAGE]
+
+VISUAL EFFECTS:
+Add:
+
+cursor sparkle trails
+floating heart particles
+cinematic blur transitions
+dreamy lighting
+glow pulse animations
+
+PHOTO WALL:
+Create floating collage wall with editable photos.
+
+Placeholders:
+[PHOTO_1]
+[PHOTO_2]
+[PHOTO_3]
+
+Photos should:
+
+tilt naturally
+move slightly with cursor
+glow softly on hover
+
+MUSIC:
+Continue romantic music with playful upbeat layer for games.
+
+Include:
+
+mute button
+sound effects toggle
+
+SPECIAL HIDDEN EASTER EGGS:
+Hide invisible clickable areas throughout page.
+
+When discovered:
+
+reveal tiny romantic notes
+trigger mini animations
+show inside jokes
+
+Editable placeholders:
+[EASTER_EGG_MESSAGE_1]
+[EASTER_EGG_MESSAGE_2]
+
+ENDING TRANSITION:
+After games complete:
+display cinematic text:
+“You make every moment feel magical ❤️”
+
+Add glowing button:
+“One Last Thing…”
+
+Transition:
+
+cinematic fade
+blur dissolve
+floating hearts
+
+TYPOGRAPHY:
+Use:
+
+playful handwritten fonts
+luxury cinematic typography
+modern romantic UI text
+
+TECH:
+Use React + Tailwind CSS + Framer Motion.
+
+Keep EVERYTHING editable from config/constants file:
+
+questions
+images
+messages
+music
+videos
+colors
+game settings
