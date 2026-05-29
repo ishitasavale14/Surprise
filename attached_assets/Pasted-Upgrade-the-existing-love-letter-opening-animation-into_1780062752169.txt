@@ -1,0 +1,109 @@
+Upgrade the existing love letter opening animation into a PREMIUM cinematic luxury animation experience.
+
+IMPORTANT:
+Do NOT redesign the page.
+Do NOT change the layout.
+Do NOT remove existing elements.
+
+ONLY enhance the animation quality to make it feel:
+
+* ultra smooth
+* emotional
+* cinematic
+* magical
+* luxury
+* immersive
+* like a movie scene
+
+ANIMATION STYLE:
+The opening animation should feel slow, graceful, and emotionally dramatic.
+
+UPGRADE THE ENVELOPE ANIMATION:
+When user clicks the envelope:
+
+1. Envelope slightly tilts upward in 3D space
+2. Soft glow builds around edges
+3. Wax seal slowly cracks with glowing particles
+4. Envelope flap opens with smooth cinematic easing
+5. Letter gently slides upward with realistic paper motion
+6. Background softly zooms and blurs
+7. Floating petals and sparkles drift outward
+8. Camera subtly pushes inward
+9. Soft light emerges from inside envelope
+10. Letter unfolds with layered paper animation
+
+LETTER UNFOLD EFFECT:
+Make the letter unfold in realistic stages:
+
+* first fold opens slowly
+* second fold expands elegantly
+* final full-screen reveal
+
+Add:
+
+* paper texture movement
+* realistic shadow shifting
+* soft edge lighting
+* slight floating motion
+
+ADVANCED MOTION EFFECTS:
+Use:
+
+* Framer Motion spring physics
+* smooth cubic-bezier easing
+* staggered animations
+* layered opacity reveals
+* blur-to-clear transitions
+* cinematic scaling
+
+BACKGROUND REACTION:
+While letter opens:
+
+* dreamy particles increase
+* sparkles glow brighter
+* background gradients slowly animate
+* floating hearts drift upward
+* subtle ambient lighting pulses
+
+CURSOR INTERACTION:
+Add:
+
+* cursor-following glow
+* sparkle trail
+* slight envelope movement based on mouse position
+
+LIGHTING EFFECTS:
+Create cinematic lighting:
+
+* warm glow from envelope interior
+* soft bloom effects
+* dreamy light leaks
+* ambient pastel shadows
+
+SOUND SYNC FEEL:
+Animation timing should visually feel synced to:
+
+* soft piano swell
+* heartbeat ambience
+* paper unfolding sound
+
+EVEN if audio is disabled.
+
+TEXT REVEAL:
+When letter fully opens:
+
+* text appears line-by-line
+* soft fade-in
+* handwritten ink-writing effect
+* subtle glow pulse
+
+MOBILE EXPERIENCE:
+Keep animations smooth and optimized for phones.
+
+Reduce lag while maintaining cinematic feel.
+
+FINAL EFFECT:
+The final animation should feel like:
+“A magical handwritten love letter slowly unfolding inside a dreamy romantic fantasy film.”
+
+The animation should be visually addictive, emotionally immersive, and premium quality.

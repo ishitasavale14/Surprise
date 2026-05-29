@@ -1,90 +1,11 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Music, Pause, Play, Sparkles } from "lucide-react";
 import { useLocation } from "wouter";
 import { config } from "@/config";
 import { useMusicContext } from "@/context/MusicContext";
-
-function FloatingParticles() {
-  const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; size: number; delay: number; duration: number; type: "heart" | "sparkle" }>>([]);
-
-  useEffect(() => {
-    const newParticles = Array.from({ length: 40 }).map((_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: Math.random() * 1.5 + 0.5,
-      delay: Math.random() * 5,
-      duration: Math.random() * 10 + 10,
-      type: (Math.random() > 0.5 ? "heart" : "sparkle") as "heart" | "sparkle",
-    }));
-    setParticles(newParticles);
-  }, []);
-
-  return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-      {particles.map((p) => (
-        <motion.div
-          key={p.id}
-          className="absolute text-primary/40"
-          style={{ left: `${p.x}%`, top: `${p.y}%`, fontSize: `${p.size}rem` }}
-          animate={{
-            y: [0, -100, -200],
-            x: [0, Math.random() * 50 - 25, Math.random() * 50 - 25],
-            opacity: [0, 0.8, 0],
-            rotate: [0, Math.random() * 180],
-          }}
-          transition={{
-            duration: p.duration,
-            repeat: Infinity,
-            delay: p.delay,
-            ease: "linear",
-          }}
-        >
-          {p.type === "heart" ? <Heart fill="currentColor" /> : <Sparkles />}
-        </motion.div>
-      ))}
-    </div>
-  );
-}
-
-function ClickBurst() {
-  const [bursts, setBursts] = useState<Array<{ id: number; x: number; y: number }>>([]);
-
-  useEffect(() => {
-    const handleClick = (e: MouseEvent) => {
-      const newBurst = { id: Date.now(), x: e.clientX, y: e.clientY };
-      setBursts((prev) => [...prev, newBurst]);
-      setTimeout(() => {
-        setBursts((prev) => prev.filter((b) => b.id !== newBurst.id));
-      }, 1000);
-    };
-
-    window.addEventListener("click", handleClick);
-    return () => window.removeEventListener("click", handleClick);
-  }, []);
-
-  return (
-    <div className="fixed inset-0 pointer-events-none z-50 overflow-hidden">
-      <AnimatePresence>
-        {bursts.map((b) => (
-          <motion.div
-            key={b.id}
-            className="absolute flex items-center justify-center"
-            style={{ left: b.x, top: b.y }}
-            initial={{ opacity: 1, scale: 0.5 }}
-            animate={{ opacity: 0, scale: 2, y: -50 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            <Heart className="text-primary h-6 w-6" fill="currentColor" />
-            <Sparkles className="text-accent absolute h-8 w-8 animate-spin-slow" />
-          </motion.div>
-        ))}
-      </AnimatePresence>
-    </div>
-  );
-}
+import FloatingParticles from "@/components/FloatingParticles";
+import ClickBurst from "@/components/ClickBurst";
 
 export default function Home() {
   const [, setLocation] = useLocation();

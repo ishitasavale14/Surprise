@@ -1,73 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, Sparkles, X, ChevronLeft } from "lucide-react";
+import { Heart, ChevronLeft, X } from "lucide-react";
 import { useLocation } from "wouter";
 import { config, memories, transitionQuotes } from "@/config";
-
-function FloatingParticles() {
-  const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; size: number; delay: number; duration: number; type: "heart" | "sparkle" }>>([]);
-
-  useEffect(() => {
-    const newParticles = Array.from({ length: 40 }).map((_, i) => ({
-      id: i,
-      x: Math.random() * 100,
-      y: Math.random() * 100,
-      size: Math.random() * 1.5 + 0.5,
-      delay: Math.random() * 5,
-      duration: Math.random() * 10 + 10,
-      type: (Math.random() > 0.5 ? "heart" : "sparkle") as "heart" | "sparkle",
-    }));
-    setParticles(newParticles);
-  }, []);
-
-  return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-      {particles.map((p) => (
-        <motion.div
-          key={p.id}
-          className="absolute text-primary/40"
-          style={{ left: `${p.x}%`, top: `${p.y}%`, fontSize: `${p.size}rem` }}
-          animate={{
-            y: [0, -100, -200],
-            x: [0, Math.random() * 50 - 25, Math.random() * 50 - 25],
-            opacity: [0, 0.8, 0],
-            rotate: [0, Math.random() * 180],
-          }}
-          transition={{
-            duration: p.duration,
-            repeat: Infinity,
-            delay: p.delay,
-            ease: "linear",
-          }}
-        >
-          {p.type === "heart" ? <Heart fill="currentColor" /> : <Sparkles />}
-        </motion.div>
-      ))}
-    </div>
-  );
-}
-
-function BokehBackground() {
-  return (
-    <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-      <motion.div 
-        animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-1/4 left-1/4 w-[40vw] h-[40vw] rounded-full bg-primary/20 blur-[100px] mix-blend-multiply" 
-      />
-      <motion.div 
-        animate={{ scale: [1, 1.5, 1], opacity: [0.2, 0.4, 0.2] }}
-        transition={{ duration: 15, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-        className="absolute bottom-1/3 right-1/4 w-[50vw] h-[50vw] rounded-full bg-accent/20 blur-[120px] mix-blend-multiply" 
-      />
-      <motion.div 
-        animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0.6, 0.3], x: [0, 50, 0] }}
-        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut", delay: 4 }}
-        className="absolute top-2/3 left-1/2 w-[30vw] h-[30vw] rounded-full bg-[#E6D7FF]/30 blur-[90px] mix-blend-multiply" 
-      />
-    </div>
-  );
-}
+import FloatingParticles from "@/components/FloatingParticles";
+import BokehBackground from "@/components/BokehBackground";
 
 export default function OurStory() {
   const [, setLocation] = useLocation();
