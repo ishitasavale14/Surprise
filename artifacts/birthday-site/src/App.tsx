@@ -2,6 +2,8 @@ import { Switch, Route, Router as WouterRouter } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import { MusicProvider } from "@/context/MusicContext";
+import MusicPlayer from "@/components/MusicPlayer";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 import OurStory from "@/pages/our-story";
@@ -40,10 +42,13 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-          <Router />
-        </WouterRouter>
-        <Toaster />
+        <MusicProvider>
+          <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+            <Router />
+          </WouterRouter>
+          <MusicPlayer />
+          <Toaster />
+        </MusicProvider>
       </TooltipProvider>
     </QueryClientProvider>
   );

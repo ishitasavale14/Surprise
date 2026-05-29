@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Music, Pause, Play, Sparkles } from "lucide-react";
 import { useLocation } from "wouter";
 import { config } from "@/config";
+import { useMusicContext } from "@/context/MusicContext";
 
 function FloatingParticles() {
   const [particles, setParticles] = useState<Array<{ id: number; x: number; y: number; size: number; delay: number; duration: number; type: "heart" | "sparkle" }>>([]);
@@ -88,7 +89,7 @@ function ClickBurst() {
 export default function Home() {
   const [, setLocation] = useLocation();
   const [loading, setLoading] = useState(true);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const { isPlaying, togglePlay } = useMusicContext();
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2500);
@@ -126,7 +127,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 3 }}
-        onClick={() => setIsPlaying(!isPlaying)}
+        onClick={togglePlay}
         className="fixed top-6 right-6 z-40 p-4 rounded-full glass-card hover:scale-105 transition-transform duration-300 group"
         aria-label="Toggle Music"
       >

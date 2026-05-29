@@ -1,7 +1,8 @@
 export const config = {
-  boyfriendName: "[BOYFRIEND_NAME]",
-  yourName: "[YOUR_NAME]",
-  specialDate: "[SPECIAL_DATE]",
+  boyfriendName: "Samir",
+  yourName: "Ishita",
+  specialDate: "20 August 2024",
+  musicSrc: "/music/song.mp3",
   customQuote: "Every moment with you feels like a dream I never want to wake up from.",
 };
 
@@ -75,10 +76,10 @@ export const letterConfig = {
     "From the moment you came into my life, everything felt softer. Quieter. Like the world finally exhaled. You didn't just change my life — you became the best part of it.",
     "I love the way you laugh. I love the way you see beauty in ordinary things. I love that you choose me, every day, even on the days I'm hard to love.",
     "You deserve every good thing the universe can offer. You deserve mornings full of warmth and nights full of peace. You deserve someone who sees you — truly sees you. And I hope that, in some small way, I do.",
-    "Happy Birthday, [BOYFRIEND_NAME]. Thank you for existing. Thank you for being mine.",
+    "Happy Birthday, Samir. Thank you for existing. Thank you for being mine.",
   ],
   closingLine: "You are my favorite chapter ❤️",
-  signature: "[YOUR_NAME]",
+  signature: "Ishita",
   hiddenMessages: [
     { id: 1, trigger: "I love the way you laugh", message: "Your laugh is literally my favorite sound in the world 🥹" },
     { id: 2, trigger: "you choose me", message: "Choosing you is the easiest thing I've ever done 💕" },
@@ -185,7 +186,7 @@ export const futureConfig = {
   heading: "Our Forever Starts Here ❤️",
   subheading1: "No matter how many birthdays pass…",
   subheading2: "I just want to keep loving you.",
-  relationshipStartDate: "2024-01-01", // placeholder — user will replace
+  relationshipStartDate: "2024-08-20",
   counterLabel: "We've been creating memories for…",
   promises: [
     { id: 1, text: "More late-night talks that turn into morning", emoji: "🌙" },

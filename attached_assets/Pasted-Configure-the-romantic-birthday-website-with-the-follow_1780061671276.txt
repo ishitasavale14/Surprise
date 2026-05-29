@@ -1,0 +1,160 @@
+Configure the romantic birthday website with the following personal details:
+
+Boyfriend Name: Samir
+Girlfriend Name: Ishita
+Special Date: 20 August 2024
+
+Automatically use these details throughout the website in headings, love letters, memory sections, counters, quotes, and footer.
+
+DEFAULT TEXT:
+Hero Heading:
+“Happy Birthday, Samir ❤️”
+
+Subheading:
+“A little universe made only for you.”
+
+Footer:
+“Made with love by Ishita”
+
+IMPORTANT:
+Do NOT hardcode these values directly inside components.
+
+Create ONE editable config file:
+
+/src/config/siteData.js
+
+Store all editable content inside this file.
+
+CREATE CONFIG STRUCTURE LIKE:
+
+const siteData = {
+boyfriendName: "Samir",
+girlfriendName: "Ishita",
+specialDate: "20 August 2024",
+
+heroText: "Happy Birthday, Samir ❤️",
+
+subText: "A little universe made only for you.",
+
+footerText: "Made with love by Ishita",
+
+music: "/music/song.mp3",
+
+heroImage: "/images/hero.jpg",
+
+galleryImages: [
+"/images/gallery1.jpg",
+"/images/gallery2.jpg",
+"/images/gallery3.jpg"
+],
+
+videos: [
+"/videos/video1.mp4",
+"/videos/video2.mp4"
+],
+
+memories: [
+{
+title: "",
+date: "",
+image: "",
+text: ""
+}
+]
+};
+
+export default siteData;
+
+MEDIA UPLOAD SUPPORT:
+Create proper support for uploading and replacing:
+
+IMAGES
+Allow easy upload of:
+couple photos
+gallery images
+scrapbook memories
+polaroids
+aesthetic pictures
+
+Use folder:
+public/images
+
+VIDEOS
+Allow uploading:
+romantic reels
+birthday edits
+memory montages
+cinematic clips
+
+Use folder:
+public/videos
+
+SONGS / MUSIC
+Allow uploading:
+romantic songs
+background music
+instrumental audio
+
+Use folder:
+public/music
+
+GLOBAL MUSIC PLAYER:
+Create persistent music player across all pages.
+
+Features:
+
+autoplay
+play/pause
+mute/unmute
+volume slider
+floating mini player
+seamless playback while navigating
+
+UPLOAD MANAGEMENT UI:
+Create beginner-friendly media management section.
+
+Allow:
+
+preview uploaded images/videos
+replace media easily
+reorder gallery items
+add captions
+add dates
+add hidden notes
+
+STYLE:
+Keep upload panel aesthetic:
+
+pastel glassmorphism
+rounded corners
+soft shadows
+dreamy gradients
+floating UI cards
+
+IMPORTANT:
+All website content must automatically update when files inside:
+
+public/images
+public/videos
+public/music
+
+are changed.
+
+Do NOT require editing component code for updating media.
+
+RESPONSIVENESS:
+Optimize upload UI and media sections for:
+
+mobile
+tablet
+desktop
+
+FINAL REQUIREMENT:
+Generate fully working Replit-ready code with:
+
+clean folder structure
+reusable components
+editable content system
+upload-friendly setup
+responsive design
+beginner-friendly organization.

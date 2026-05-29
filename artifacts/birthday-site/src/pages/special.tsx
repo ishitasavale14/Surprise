@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Sparkles, Music, ChevronLeft, X } from "lucide-react";
 import { useLocation } from "wouter";
 import { specialConfig, config } from "@/config";
+import { useMusicContext } from "@/context/MusicContext";
 
 function BokehBackground() {
   return (
@@ -66,7 +67,7 @@ function FloatingParticles() {
 
 export default function Special() {
   const [, setLocation] = useLocation();
-  const [musicPlaying, setMusicPlaying] = useState(false);
+  const { isPlaying, togglePlay } = useMusicContext();
   const [selectedQuality, setSelectedQuality] = useState<typeof specialConfig.qualities[0] | null>(null);
   const [complimentIndex, setComplimentIndex] = useState(-1);
   const [complimentPos, setComplimentPos] = useState({ top: "20%", left: "5%" });
@@ -97,10 +98,10 @@ export default function Special() {
         <ChevronLeft className="w-6 h-6" />
       </button>
       <button 
-        onClick={() => setMusicPlaying(!musicPlaying)}
+        onClick={togglePlay}
         className="fixed top-6 right-6 z-50 w-12 h-12 rounded-full glass-card flex items-center justify-center text-foreground hover:scale-105 transition-transform"
       >
-        {musicPlaying ? <Music className="w-5 h-5 opacity-50" /> : <Music className="w-5 h-5" />}
+        {isPlaying ? <Music className="w-5 h-5 opacity-50" /> : <Music className="w-5 h-5" />}
       </button>
 
       <AnimatePresence>
