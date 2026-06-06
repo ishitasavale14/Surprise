@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, Music, ChevronLeft, X, ChevronRight } from "lucide-react";
+import { Heart, Music, ChevronLeft, X, ChevronRight, Play } from "lucide-react";
 import { useLocation } from "wouter";
 import { galleryConfig, config } from "@/config";
 import { useMusicContext } from "@/context/MusicContext";
@@ -209,12 +209,21 @@ export default function Gallery() {
         <p className="font-serif italic text-2xl text-muted-foreground mb-12">
           {galleryConfig.endingLine}
         </p>
-        <button
-          onClick={() => setLocation("/special")}
+        <div className="flex flex-col sm:flex-row gap-4 items-center">
+          <button
+            onClick={() => setLocation("/videos")}
+            className="px-8 py-4 rounded-full glass-card border border-primary/30 text-primary font-serif text-lg tracking-wide transition-all hover:bg-primary/20 hover:shadow-[0_0_15px_rgba(255,182,193,0.3)] flex items-center gap-2"
+          >
+            <Play className="w-5 h-5" />
+            Watch Our Videos
+          </button>
+          <button
+            onClick={() => setLocation("/special")}
           className="px-8 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg tracking-wide transition-all shadow-[0_0_15px_rgba(255,182,193,0.4)]"
         >
           {galleryConfig.ctaLabel}
-        </button>
+          </button>
+        </div>
         <p className="font-script text-2xl text-foreground/60 mt-16">
           Made with love by {config.yourName}
         </p>

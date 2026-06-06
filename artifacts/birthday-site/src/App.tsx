@@ -17,6 +17,7 @@ const Games = lazy(() => import("@/pages/games"));
 const Gallery = lazy(() => import("@/pages/gallery"));
 const Special = lazy(() => import("@/pages/special"));
 const Days = lazy(() => import("@/pages/days"));
+const Videos = lazy(() => import("@/pages/videos"));
 const Ending = lazy(() => import("@/pages/ending"));
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ function Router() {
         <Route path="/gallery" component={Gallery} />
         <Route path="/special" component={Special} />
         <Route path="/days" component={Days} />
+        <Route path="/videos" component={Videos} />
         <Route path="/ending" component={Ending} />
         <Route component={NotFound} />
       </Switch>

@@ -299,6 +299,22 @@ export const daysConfig = {
   ],
 };
 
+export const videosConfig = {
+  heading: "Our Favorite Moments",
+  subheading: "Memories I never want to forget.",
+  midQuote: "Some moments are too beautiful for just a photograph.",
+  endingLine: "And I'll keep pressing play on every memory we make… ❤️",
+  ctaLabel: "Continue Our Journey",
+  videos: [
+    { id: 1, src: "/videos/video-1.mp4", title: "The Day We Met", date: "[Date]", hiddenNote: "I've watched this a hundred times and it still makes my heart race 🌸" },
+    { id: 2, src: "/videos/video-2.mp4", title: "Our First Dance", date: "[Date]", hiddenNote: "I never want to forget how this felt 💕" },
+    { id: 3, src: "/videos/video-3.mp4", title: "That Surprise", date: "[Date]", hiddenNote: "Your face in this moment is my favorite thing ever ✨" },
+    { id: 4, src: "/videos/video-4.mp4", title: "Laughing Together", date: "[Date]", hiddenNote: "This is the sound of happiness and I'm so glad we caught it 🌙" },
+    { id: 5, src: "/videos/video-5.mp4", title: "Our Adventure", date: "[Date]", hiddenNote: "I want a thousand more adventures exactly like this ⭐" },
+    { id: 6, src: "/videos/video-6.mp4", title: "Just Us Being Us", date: "[Date]", hiddenNote: "This is the version of us I never want to let go of 🥹" },
+  ],
+};
+
 export const endingConfig = {
   introLines: [
     "And if this moment could last forever…",
