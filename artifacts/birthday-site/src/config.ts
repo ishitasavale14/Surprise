@@ -224,12 +224,12 @@ export const galleryConfig = {
     "I never want to forget a single moment.",
   ],
   photos: [
-    { id: 1, caption: "My favorite day", date: "[Date]", hiddenNote: "I still smile every time I think about this 🌸", rotate: -3, emoji: "🌸" },
-    { id: 2, caption: "Just us", date: "[Date]", hiddenNote: "This is my phone wallpaper and it makes me so happy 💕", rotate: 4, emoji: "💕" },
-    { id: 3, caption: "Pure joy", date: "[Date]", hiddenNote: "I want a thousand more days exactly like this ✨", rotate: -2, emoji: "✨" },
-    { id: 4, caption: "Wherever we go", date: "[Date]", hiddenNote: "My favorite place is always wherever you are 🌙", rotate: 3, emoji: "🌙" },
-    { id: 5, caption: "Worth remembering", date: "[Date]", hiddenNote: "I'm so glad we have this memory 🥹", rotate: -5, emoji: "🥹" },
-    { id: 6, caption: "Our little world", date: "[Date]", hiddenNote: "This felt like magic and I hope you felt it too ⭐", rotate: 2, emoji: "⭐" },
+    { id: 1, image: "/images/gallery-1.jpg", caption: "My favorite day", date: "[Date]", hiddenNote: "I still smile every time I think about this 🌸", rotate: -3, emoji: "🌸" },
+    { id: 2, image: "/images/gallery-2.jpg", caption: "Just us", date: "[Date]", hiddenNote: "This is my phone wallpaper and it makes me so happy 💕", rotate: 4, emoji: "💕" },
+    { id: 3, image: "/images/gallery-3.jpg", caption: "Pure joy", date: "[Date]", hiddenNote: "I want a thousand more days exactly like this ✨", rotate: -2, emoji: "✨" },
+    { id: 4, image: "/images/gallery-4.jpg", caption: "Wherever we go", date: "[Date]", hiddenNote: "My favorite place is always wherever you are 🌙", rotate: 3, emoji: "🌙" },
+    { id: 5, image: "/images/gallery-5.jpg", caption: "Worth remembering", date: "[Date]", hiddenNote: "I'm so glad we have this memory 🥹", rotate: -5, emoji: "🥹" },
+    { id: 6, image: "/images/gallery-6.jpg", caption: "Our little world", date: "[Date]", hiddenNote: "This felt like magic and I hope you felt it too ⭐", rotate: 2, emoji: "⭐" },
   ],
 };
 
