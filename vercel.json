@@ -1,4 +1,8 @@
 {
+  "buildCommand": "cd artifacts/birthday-site && npx vite build --config vite.config.ts",
+  "outputDirectory": "artifacts/birthday-site/dist",
+  "installCommand": "pnpm install",
+  "framework": null,
   "rewrites": [
     {
       "source": "/(.*)",
