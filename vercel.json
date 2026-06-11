@@ -1,11 +1,9 @@
 {
-  "installCommand": "cd artifacts/birthday-site && npm install",
+  "version": 2,
+  "installCommand": "cd artifacts/birthday-site && npm install --legacy-peer-deps",
   "buildCommand": "cd artifacts/birthday-site && npm run build",
   "outputDirectory": "artifacts/birthday-site/dist",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
