@@ -113,7 +113,7 @@ export const reasonsConfig = {
   midQuote: "In every universe, I think I'd still find you.",
   endingLine1: "And today…",
   endingLine2: "I just want to celebrate you ❤️",
-  ctaLabel: "Continue To Your Final Surprise",
+  ctaLabel: "Continue to your Surprise",
   hiddenNotes: [
     "You're my favorite person.",
     "I'd choose you every lifetime.",
@@ -215,7 +215,7 @@ export const futureConfig = {
 };
 
 export const galleryConfig = {
-  heading: "Our Favorite Moments ☁️",
+  heading: "Favorite Moments ☁️",
   subheading: "A collection of little memories that mean everything to me.",
   midQuote: "You turned ordinary moments into my favorite memories.",
   endingLine: "And there are still so many memories left to create… ❤️",
@@ -232,6 +232,10 @@ export const galleryConfig = {
     { id: 4, caption: "Wherever we go", date: "[Date]", hiddenNote: "My favorite place is always wherever you are 🌙", rotate: 3, emoji: "🌙" },
     { id: 5, caption: "Worth remembering", date: "[Date]", hiddenNote: "I'm so glad we have this memory 🥹", rotate: -5, emoji: "🥹" },
     { id: 6, caption: "Our little world", date: "[Date]", hiddenNote: "This felt like magic and I hope you felt it too ⭐", rotate: 2, emoji: "⭐" },
+    { id: 7, caption: "Golden hour", date: "[Date]", hiddenNote: "Everything felt softer in this moment 🌅", rotate: -3, emoji: "🌅" },
+    { id: 8, caption: "Laughing together", date: "[Date]", hiddenNote: "Your laugh is genuinely my favorite sound 😂", rotate: 4, emoji: "😂" },
+    { id: 9, caption: "A quiet moment", date: "[Date]", hiddenNote: "Even silence feels perfect when it's with you 🤍", rotate: -2, emoji: "🤍" },
+    { id: 10, caption: "My whole heart", date: "[Date]", hiddenNote: "If I could save one moment forever, maybe this one 💫", rotate: 3, emoji: "💫" },
   ],
 };
 
@@ -274,7 +278,7 @@ export const daysConfig = {
   midQuote: "The best part of every day somehow became you.",
   endingLine1: "And no matter how many days pass…",
   endingLine2: "I know my favorite ones will always include you.",
-  ctaLabel: "Your Final Surprise Awaits ☁️",
+  ctaLabel: "Not the last but..",
   featuredMemory: {
     title: "The Day Everything Changed",
     text: "Some days don't feel important when they're happening. But looking back, you realize they were the ones that mattered most. This was one of those days.",

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, Sparkles } from "lucide-react";
+import { Heart } from "lucide-react";
 import { useLocation } from "wouter";
 import { config } from "@/config";
 import { useMusicContext } from "@/context/MusicContext";
@@ -50,13 +50,6 @@ export default function Home() {
                 fill="currentColor"
               />
             </motion.div>
-            <motion.p
-              animate={{ opacity: [0.5, 1, 0.5] }}
-              transition={{ repeat: Infinity, duration: 2 }}
-              className="font-script text-4xl md:text-5xl text-foreground/80 tracking-wider"
-            >
-              Loading your love story…
-            </motion.p>
           </motion.div>
         )}
       </AnimatePresence>
@@ -149,7 +142,7 @@ export default function Home() {
       </section>
 
       {/* Navigation cards */}
-      <section className="relative py-24 px-4 z-10">
+      <section className="relative py-16 px-4 z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -191,54 +184,6 @@ export default function Home() {
             </motion.button>
           ))}
         </div>
-
-        {/* Main CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1, delay: 0.3 }}
-          className="text-center mt-16"
-        >
-          <button
-            onClick={() => setLocation("/our-story")}
-            className="btn-shimmer relative px-10 py-5 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg tracking-wide transition-all duration-300 glow-primary hover:scale-105 shadow-lg"
-          >
-            <span className="flex items-center gap-3">
-              <Sparkles className="w-5 h-5" />
-              Begin Our Story
-              <Sparkles className="w-5 h-5" />
-            </span>
-          </button>
-        </motion.div>
-      </section>
-
-      {/* Quote section */}
-      <section className="relative py-24 px-4 z-10 flex flex-col items-center text-center">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95, filter: "blur(8px)" }}
-          whileInView={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
-          viewport={{ once: true }}
-          transition={{ duration: 1.5 }}
-          className="glass-card-strong rounded-[2.5rem] max-w-2xl w-full p-12 relative overflow-hidden"
-        >
-          <div className="absolute -top-6 -left-6 opacity-10">
-            <Heart className="w-32 h-32 text-primary" fill="currentColor" />
-          </div>
-          <div className="absolute -bottom-6 -right-6 opacity-10">
-            <Heart className="w-32 h-32 text-primary" fill="currentColor" />
-          </div>
-          <Heart
-            className="w-10 h-10 text-primary/40 mx-auto mb-6 animate-heartbeat"
-            fill="currentColor"
-          />
-          <p className="font-script text-4xl md:text-5xl text-primary mb-6 leading-relaxed">
-            You are my favorite story.
-          </p>
-          <p className="font-serif italic text-muted-foreground text-lg">
-            And I'm so glad I get to write it with you. ❤️
-          </p>
-        </motion.div>
       </section>
 
       {/* Footer */}

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Heart, ChevronLeft, Check, Sparkles } from "lucide-react";
+import { Heart, ChevronLeft, Check } from "lucide-react";
 import { useLocation } from "wouter";
 import { futureConfig, config } from "@/config";
 import { useMusicContext } from "@/context/MusicContext";
@@ -11,7 +11,6 @@ import CountdownTimer from "@/components/CountdownTimer";
 export default function Future() {
   const [, setLocation] = useLocation();
   const { isPlaying, togglePlay } = useMusicContext();
-  const [wishMade, setWishMade] = useState(false);
   const [guestbookMsg, setGuestbookMsg] = useState("");
   const [savedMessages, setSavedMessages] = useState<string[]>([]);
   const [showToast, setShowToast] = useState(false);
@@ -34,20 +33,6 @@ export default function Future() {
     }, 1000);
     return () => clearInterval(interval);
   }, []);
-
-  const handleWish = () => {
-    setWishMade(true);
-    for (let i = 0; i < 24; i++) {
-      const star = document.createElement("div");
-      star.className = "wish-star";
-      star.style.left = `${window.innerWidth / 2 + (Math.random() * 200 - 100)}px`;
-      star.style.top  = `${window.innerHeight / 2 + (Math.random() * 200 - 100)}px`;
-      star.style.setProperty("--tx", `${Math.random() * 200 - 100}px`);
-      star.style.setProperty("--ty", `${-100 - Math.random() * 200}px`);
-      document.body.appendChild(star);
-      setTimeout(() => star.remove(), 2100);
-    }
-  };
 
   const handleSaveMsg = () => {
     if (!guestbookMsg.trim()) return;
@@ -172,34 +157,6 @@ export default function Future() {
         </div>
       </section>
 
-      {/* Make a wish */}
-      <section className="relative z-10 py-32 px-4 flex flex-col items-center text-center">
-        <motion.h2 initial={{ opacity: 0, scale: 0.9 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }}
-          className="font-script text-6xl text-primary text-glow mb-4">Make A Wish ❤️</motion.h2>
-        <p className="font-serif italic text-muted-foreground mb-12 text-lg">Close your eyes. Think of something beautiful.</p>
-
-        <div className="relative">
-          <motion.button onClick={handleWish} disabled={wishMade} whileHover={!wishMade ? { scale: 1.05 } : {}} whileTap={{ scale: 0.97 }}
-            className="btn-shimmer relative bg-primary/20 hover:bg-primary/40 border-2 border-primary/50 text-primary font-script text-3xl px-14 py-7 rounded-full transition-all disabled:opacity-60 disabled:cursor-not-allowed glow-primary z-10 flex items-center gap-3">
-            <Sparkles className="w-6 h-6" />
-            {wishMade ? "Wish Made ✨" : "Make Wish"}
-            <Sparkles className="w-6 h-6" />
-          </motion.button>
-          {!wishMade && <div className="absolute inset-0 border border-primary/30 rounded-full animate-ping opacity-30 pointer-events-none" />}
-        </div>
-
-        <AnimatePresence>
-          {wishMade && (
-            <motion.div initial={{ opacity: 0, scale: 0.8, y: 20 }} animate={{ opacity: 1, scale: 1, y: 0 }}
-              transition={{ type: "spring", delay: 0.5 }}
-              className="glass-card-strong rounded-3xl max-w-lg mt-12 p-10 text-center">
-              <Heart className="w-10 h-10 text-primary/50 mx-auto mb-4 animate-heartbeat" fill="currentColor" />
-              <p className="font-serif italic text-xl text-foreground/80 leading-relaxed">{futureConfig.makeAWishMessage}</p>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </section>
-
       {/* Guestbook */}
       <section className="relative z-10 py-24 px-4 max-w-2xl mx-auto text-center">
         <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
@@ -281,10 +238,6 @@ export default function Future() {
 
       {/* CTAs */}
       <section className="relative z-10 py-24 px-4 flex flex-col items-center gap-4">
-        <motion.button onClick={() => setLocation("/")} whileHover={{ scale: 1.04 }}
-          className="btn-shimmer px-10 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg glow-primary transition-all flex items-center gap-3">
-          <Heart className="w-5 h-5" fill="currentColor" /> Replay Our Story
-        </motion.button>
         <button onClick={() => setLocation("/games")}
           className="px-8 py-3 rounded-full glass-card text-foreground/70 font-serif hover:text-primary transition-colors">
           Hidden Surprises 🎮

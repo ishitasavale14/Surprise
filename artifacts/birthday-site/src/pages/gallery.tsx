@@ -170,6 +170,7 @@ export default function Gallery() {
     setLightboxIndex(i => i !== null ? (i + 1) % galleryConfig.photos.length : null), []);
 
   // Masonry-like column distribution
+  // Distribute 10 photos across 3 columns: col1→4, col2→3, col3→3
   const col1 = galleryConfig.photos.filter((_, i) => i % 3 === 0);
   const col2 = galleryConfig.photos.filter((_, i) => i % 3 === 1);
   const col3 = galleryConfig.photos.filter((_, i) => i % 3 === 2);

@@ -233,13 +233,6 @@ export default function Reasons() {
           >
             {reasonsConfig.ctaLabel}
           </button>
-          
-          <button
-            onClick={() => setLocation("/surprise")}
-            className="font-serif text-sm text-foreground/50 hover:text-primary transition-colors"
-          >
-            ← Back to Surprise
-          </button>
         </motion.div>
 
         <motion.div
