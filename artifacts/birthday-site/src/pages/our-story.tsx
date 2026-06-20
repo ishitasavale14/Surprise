@@ -7,6 +7,32 @@ import { useMusicContext } from "@/context/MusicContext";
 import FloatingParticles from "@/components/FloatingParticles";
 import BokehBackground from "@/components/BokehBackground";
 
+function MemoryPhoto({ id, emoji }: { id: number; emoji: string }) {
+  const [errored, setErrored] = useState(false);
+  const src = `/images/story-${id}.jpg`;
+
+  if (errored) {
+    return (
+      <motion.div className="w-full h-full flex flex-col items-center justify-center gap-3"
+        whileHover={{ scale: 1.05 }} transition={{ duration: 0.6 }}>
+        <span className="text-5xl opacity-60">{emoji}</span>
+        <span className="font-serif italic text-sm text-muted-foreground/50">[ Add Photo ]</span>
+      </motion.div>
+    );
+  }
+
+  return (
+    <motion.img
+      src={src}
+      alt="A memory of us"
+      onError={() => setErrored(true)}
+      className="w-full h-full object-cover"
+      whileHover={{ scale: 1.05 }}
+      transition={{ duration: 0.6 }}
+    />
+  );
+}
+
 export default function OurStory() {
   const [, setLocation] = useLocation();
   const { isPlaying, togglePlay } = useMusicContext();
@@ -86,11 +112,7 @@ export default function OurStory() {
 
                     {/* Photo area */}
                     <div className="aspect-[4/5] bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5 rounded-xl overflow-hidden relative mb-6 border border-primary/10">
-                      <motion.div className="w-full h-full flex flex-col items-center justify-center gap-3"
-                        whileHover={{ scale: 1.05 }} transition={{ duration: 0.6 }}>
-                        <span className="text-5xl opacity-60">{memory.emoji}</span>
-                        <span className="font-serif italic text-sm text-muted-foreground/50">[ Add Photo ]</span>
-                      </motion.div>
+                      <MemoryPhoto id={memory.id} emoji={memory.emoji} />
                     </div>
 
                     <div className="text-center space-y-2">
