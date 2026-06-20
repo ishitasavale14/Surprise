@@ -119,7 +119,7 @@ export default function Scrapbook() {
 
       {/* Nav */}
       <button
-        onClick={() => setLocation("/")}
+        onClick={() => setLocation("/days")}
         className="fixed top-6 left-6 z-50 w-12 h-12 rounded-full glass-card flex items-center justify-center hover:scale-105 transition-transform"
       >
         <ChevronLeft className="w-6 h-6 text-primary" />
@@ -199,11 +199,11 @@ export default function Scrapbook() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           whileHover={{ scale: 1.05 }}
-          onClick={() => setLocation("/")}
+          onClick={() => setLocation("/ending")}
           className="btn-shimmer px-10 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg tracking-wide glow-primary flex items-center gap-3 mx-auto"
         >
           <Heart className="w-5 h-5" fill="currentColor" />
-          Back to the Beginning
+          Continue to the Ending
         </motion.button>
       </section>
 

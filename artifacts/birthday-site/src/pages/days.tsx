@@ -111,7 +111,7 @@ export default function Days() {
         <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }}
           transition={{ delay: 0.5 }}
           className="font-script text-4xl md:text-5xl text-primary text-glow mb-14">{daysConfig.endingLine2}</motion.p>
-        <motion.button onClick={() => setLocation("/ending")} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}
+        <motion.button onClick={() => setLocation("/scrapbook")} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }}
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
           className="btn-shimmer px-10 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg glow-primary flex items-center gap-3">
           <Heart className="w-5 h-5" fill="currentColor" /> {daysConfig.ctaLabel}
