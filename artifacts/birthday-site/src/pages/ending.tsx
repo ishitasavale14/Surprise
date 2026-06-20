@@ -58,7 +58,7 @@ function VideoSection() {
       initial={{ opacity: 0, scale: 0.95, y: 30 }}
       animate={{ opacity: 1, scale: 1, y: 0 }}
       transition={{ delay: 2.4, duration: 1.2, ease: [0.23, 1, 0.32, 1] }}
-      className="mt-16 relative max-w-sm md:max-w-md mx-auto"
+      className="mt-16 relative max-w-md md:max-w-2xl mx-auto"
     >
       {/* Outer glow */}
       <div className="absolute inset-0 rounded-3xl pointer-events-none"
@@ -192,7 +192,7 @@ export default function Ending() {
         />
       ))}
 
-      <button onClick={() => setLocation("/days")}
+      <button onClick={() => setLocation("/scrapbook")}
         className="fixed top-6 left-6 z-50 w-12 h-12 rounded-full glass flex items-center justify-center hover:scale-105 transition-transform">
         <ChevronLeft className="w-6 h-6 text-white/70" />
       </button>

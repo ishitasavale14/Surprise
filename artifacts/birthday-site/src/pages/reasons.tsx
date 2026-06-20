@@ -228,7 +228,7 @@ export default function Reasons() {
           className="pt-12 flex flex-col items-center gap-6"
         >
           <button
-            onClick={() => setLocation("/future")}
+            onClick={() => setLocation("/surprise")}
             className="px-8 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg tracking-wide transition-all glow-primary"
           >
             {reasonsConfig.ctaLabel}

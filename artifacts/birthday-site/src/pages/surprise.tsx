@@ -231,7 +231,7 @@ export default function Surprise() {
               <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}
                 transition={{ delay: 0.5 + surpriseConfig.finalLines.length * 0.8 + 4 }}
                 className="flex flex-col items-center gap-3 pt-8">
-                <motion.button onClick={() => setLocation("/reasons")} whileHover={{ scale: 1.04 }}
+                <motion.button onClick={() => setLocation("/future")} whileHover={{ scale: 1.04 }}
                   className="btn-shimmer px-8 py-4 rounded-full bg-primary/80 hover:bg-primary text-white font-serif text-lg glow-primary">
                   Reasons I Love You 💕
                 </motion.button>

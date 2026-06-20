@@ -9,6 +9,28 @@ import BokehBackground from "@/components/BokehBackground";
 
 type Photo = typeof galleryConfig.photos[0];
 
+function GalleryPhoto({ id, emoji }: { id: number; emoji: string }) {
+  const [errored, setErrored] = useState(false);
+  const src = `/images/gallery-${id}.jpg`;
+
+  if (errored) {
+    return (
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-100 via-purple-50 to-rose-100 flex items-center justify-center">
+        <span className="text-5xl">{emoji}</span>
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={src}
+      alt="A favorite moment"
+      onError={() => setErrored(true)}
+      className="absolute inset-0 w-full h-full object-cover"
+    />
+  );
+}
+
 function PhotoCard({
   photo,
   index,
@@ -37,10 +59,7 @@ function PhotoCard({
       <div className="polaroid transition-all duration-500 group-hover:shadow-[0_20px_60px_rgba(220,130,160,0.3)]">
         {/* Photo area */}
         <div className="relative overflow-hidden rounded-sm" style={{ aspectRatio: "4/3" }}>
-          {/* Placeholder / future image */}
-          <div className="absolute inset-0 bg-gradient-to-br from-pink-100 via-purple-50 to-rose-100 flex items-center justify-center">
-            <span className="text-5xl">{photo.emoji}</span>
-          </div>
+          <GalleryPhoto id={photo.id} emoji={photo.emoji} />
 
           {/* Hover overlay */}
           <motion.div
@@ -100,10 +119,10 @@ function Lightbox({
       >
         <div className="polaroid">
           <div
-            className="relative bg-gradient-to-br from-pink-100 via-purple-50 to-rose-100 flex items-center justify-center rounded-sm"
+            className="relative flex items-center justify-center rounded-sm overflow-hidden"
             style={{ aspectRatio: "4/3" }}
           >
-            <span className="text-8xl">{photo.emoji}</span>
+            <GalleryPhoto id={photo.id} emoji={photo.emoji} />
           </div>
           <div className="py-4 text-center">
             <p className="font-serif italic text-sm text-primary/80 mt-3 px-4 leading-relaxed">
