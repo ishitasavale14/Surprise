@@ -9,6 +9,24 @@ import BokehBackground from "@/components/BokehBackground";
 
 type Memory = typeof scrapbookConfig.memories[0];
 
+function ScrapbookPhoto({ id, emoji }: { id: number; emoji: string }) {
+  const [errored, setErrored] = useState(false);
+  const src = `/images/scrapbook-${id}.jpg`;
+
+  if (errored) {
+    return <span className="text-6xl">{emoji}</span>;
+  }
+
+  return (
+    <img
+      src={src}
+      alt="A scrapbook memory"
+      onError={() => setErrored(true)}
+      className="absolute inset-0 w-full h-full object-cover"
+    />
+  );
+}
+
 function ScrapbookCard({ memory, index, onClick }: { memory: Memory; index: number; onClick: () => void }) {
   return (
     <motion.div
@@ -39,15 +57,10 @@ function ScrapbookCard({ memory, index, onClick }: { memory: Memory; index: numb
           className="relative overflow-hidden rounded-sm flex items-center justify-center"
           style={{ aspectRatio: "1", background: "linear-gradient(135deg, #ffe4ef, #f0e0ff, #ffe8d6)" }}
         >
-          <span className="text-6xl">{memory.emoji}</span>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent" />
+          <ScrapbookPhoto id={memory.id} emoji={memory.emoji} />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/5 to-transparent pointer-events-none" />
         </div>
 
-        {/* Caption area */}
-        <div className="pt-4 pb-2 space-y-1">
-          <p className="font-handwriting text-lg text-foreground/90 leading-snug">{memory.caption}</p>
-          <p className="font-serif text-xs text-muted-foreground">{memory.date}</p>
-        </div>
       </div>
     </motion.div>
   );
@@ -86,12 +99,9 @@ function MemoryModal({ memory, onClose }: { memory: Memory; onClose: () => void 
             className="relative overflow-hidden rounded-sm flex items-center justify-center"
             style={{ aspectRatio: "1", background: "linear-gradient(135deg, #ffe4ef, #f0e0ff, #ffe8d6)" }}
           >
-            <span className="text-8xl">{memory.emoji}</span>
+            <ScrapbookPhoto id={memory.id} emoji={memory.emoji} />
           </div>
           <div className="pt-5 pb-3 space-y-3">
-            <p className="font-handwriting text-xl text-foreground/90">{memory.caption}</p>
-            <p className="font-serif text-sm text-muted-foreground">{memory.date}</p>
-            <div className="w-full h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
             <p className="font-serif italic text-base text-foreground/80 leading-relaxed">{memory.memory}</p>
           </div>
         </div>

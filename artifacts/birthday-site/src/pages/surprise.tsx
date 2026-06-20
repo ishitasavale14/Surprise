@@ -7,6 +7,24 @@ import { useMusicContext } from "@/context/MusicContext";
 import FloatingParticles from "@/components/FloatingParticles";
 import BokehBackground from "@/components/BokehBackground";
 
+function CarouselPhoto({ id }: { id: number }) {
+  const [errored, setErrored] = useState(false);
+  const src = `/images/surprise-${id}.jpg`;
+
+  if (errored) {
+    return <span className="font-serif text-sm text-primary/40 italic">[ Add Photo ]</span>;
+  }
+
+  return (
+    <img
+      src={src}
+      alt="A favourite moment"
+      onError={() => setErrored(true)}
+      className="absolute inset-0 w-full h-full object-cover"
+    />
+  );
+}
+
 export default function Surprise() {
   const [, setLocation] = useLocation();
   const { isPlaying, togglePlay } = useMusicContext();
@@ -97,7 +115,7 @@ export default function Surprise() {
                     style={{ transform: `rotate(${photo.rotate}deg)` }}
                     whileHover={{ scale: 1.05, rotate: 0, zIndex: 10 }}>
                     <div className="w-full aspect-[4/5] bg-gradient-to-br from-primary/10 to-accent/20 rounded-xl mb-4 flex items-center justify-center border border-primary/15 overflow-hidden relative">
-                      <span className="font-serif text-sm text-primary/40 italic">[ Add Photo ]</span>
+                      <CarouselPhoto id={photo.id} />
                     </div>
                     <div className="text-center">
                       <p className="font-serif font-semibold text-base mb-1 text-foreground/80">{photo.caption}</p>

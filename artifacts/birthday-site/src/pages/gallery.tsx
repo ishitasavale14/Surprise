@@ -61,12 +61,6 @@ function PhotoCard({
             style={{ pointerEvents: "none" }}
           />
         </div>
-
-        {/* Caption */}
-        <div className="pt-3 pb-1 text-center">
-          <p className="font-handwriting text-base text-foreground/80">{photo.caption}</p>
-          <p className="font-serif text-xs text-muted-foreground mt-1">{photo.date}</p>
-        </div>
       </div>
     </motion.div>
   );
@@ -112,8 +106,6 @@ function Lightbox({
             <span className="text-8xl">{photo.emoji}</span>
           </div>
           <div className="py-4 text-center">
-            <p className="font-handwriting text-xl text-foreground/80">{photo.caption}</p>
-            <p className="font-serif text-sm text-muted-foreground mt-1">{photo.date}</p>
             <p className="font-serif italic text-sm text-primary/80 mt-3 px-4 leading-relaxed">
               {photo.hiddenNote}
             </p>
