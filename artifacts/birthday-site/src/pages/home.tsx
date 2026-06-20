@@ -18,6 +18,7 @@ const NAV_PAGES = [
   { label: "Our Gallery",     path: "/gallery",    emoji: "📸" },
   { label: "What Makes You Special", path: "/special", emoji: "✨" },
   { label: "365 Days of Us",  path: "/days",       emoji: "☁️" },
+  { label: "Our Scrapbook",   path: "/scrapbook",  emoji: "📔" },
   { label: "The Ending",      path: "/ending",     emoji: "🌙" },
 ];
 

@@ -101,7 +101,6 @@ export default function Surprise() {
                     </div>
                     <div className="text-center">
                       <p className="font-serif font-semibold text-base mb-1 text-foreground/80">{photo.caption}</p>
-                      <p className="font-script text-primary text-lg">{photo.date}</p>
                     </div>
                     <div className="mt-3 px-2">
                       <p className="font-serif italic text-xs text-muted-foreground/60 text-center leading-relaxed">{photo.hiddenNote}</p>
