@@ -94,7 +94,7 @@ export const surpriseConfig = {
   surpriseMessage: "You deserve the whole world. This is just a tiny piece of it — made entirely for you.",
   giftRevealMessage: "Every day with you is the real gift. But here's a little something extra…",
   secretMessage: "My secret wish: a lifetime of ordinary days with you. That's all I need.",
-  spotifyLink: "https://open.spotify.com",
+  spotifyLink: "https://open.spotify.com/playlist/02KCQXNHmxgcBkpnBYDJTw?si=a9r7VwDQT2OUHUq7TvYetA",
   carouselPhotos: [
     { id: 1, caption: "The beginning of everything", date: "April 12", hiddenNote: "I still smile thinking about this day 🌸", rotate: -2 },
     { id: 2, caption: "My favorite kind of chaos", date: "July 4", hiddenNote: "This is my phone wallpaper and it always makes me happy 💕", rotate: 3 },
